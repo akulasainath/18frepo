@@ -5,5 +5,8 @@ demoApp.config(function($routeProvider) {
 	}).when('/results/:data', {
 		templateUrl : '/demo/app/components/search/results.html',
 		controller : 'SearchController'
+	}).when('/drugs/', {
+		templateUrl : '/demo/app/components/drugs/drugs.html',
+		controller : 'DrugsController'
 	});
 });

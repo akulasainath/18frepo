@@ -4,6 +4,9 @@
 		<title>Open FDA Repo</title>
 		<meta charset="utf-8">
 		
+		<!-- JQuery JS -->
+		<script src="/demo/assets/libs/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+		<script src="/demo/assets/libs/jquery-2.1.1/jquery-ui.min.js"></script>
 		
 		<!-- AngularJS -->
 		<script src="/demo/assets/libs/angular-1.4.1/angular.min.js"></script>
@@ -14,12 +17,17 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" type="text/css" href="/demo/assets/libs/bootstrap-3.3.5-dist/css/bootstrap.min.css">
 		
+		<!-- JQuery CSS -->
+		<link rel="stylesheet" type="text/css" href="/demo/assets/libs//jquery-2.1.1/css/jquery-ui.css">
+		
 		<!-- Application related JS files -->
 		<script type="text/javascript">
 			var demoApp = angular.module('demoApp', [ 'ngRoute', 'ngResource']);
 		</script>
 		<script src="/demo/app/app.routes.js"></script>
 		<script src="/demo/app/components/search/searchcontroller.js"></script>
+		<script src="/demo/app/components/drugs/drugscontroller.js"></script>
+		<script src="/demo/assets/js/utils.js"></script>
 	</head>
 	
 	<body data-ng-cloak>

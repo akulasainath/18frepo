@@ -14,6 +14,9 @@ searchcontrollers.SearchController = function($scope, $http, $location, $routePa
 		    $scope.rows = jsonResp;
 		});
     }
+    
+    
+    
 }
 
 demoApp.controller(searchcontrollers);
