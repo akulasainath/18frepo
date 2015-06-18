@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html data-ng-app="demoApp">
+	<head>
+		<title>Open FDA Repo</title>
+		<meta charset="utf-8">
+		
+		
+		<!-- AngularJS -->
+		<script src="/demo/assets/libs/angular-1.4.1/angular.min.js"></script>
+		<script src="/demo/assets/libs/angular-1.4.1/angular-route.min.js"></script>
+		<script src="/demo/assets/libs/angular-1.4.1/angular-resource.min.js"></script>
+		<script src="/demo/assets/libs/angular-1.4.1/angular-sanitize.min.js"></script>
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="/demo/assets/libs/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+		
+		<!-- Application related JS files -->
+		<script type="text/javascript">
+			var demoApp = angular.module('demoApp', [ 'ngRoute', 'ngResource']);
+		</script>
+		<script src="/demo/app/app.routes.js"></script>
+		<script src="/demo/app/components/search/searchcontroller.js"></script>
+	</head>
+	
+	<body data-ng-cloak>
+		<div data-ng-view></div>
+	</body>
+</html>
