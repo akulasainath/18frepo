@@ -1,11 +1,19 @@
 <div ng-controller="DrugsController" align="center">
-	<div class="panel" style="height: 500px;padding-top: 150px;">
+	<div class="panel" style="height: 500px;padding-top: 100px;">
 		<div class="panel-heading main-panel-heading">
 			<h2>Search for Drugs</h2>
 		</div>
 		<div class="panel-body">
-			<div id="help" class="input-group">
+			<div class="input-group">
 				<input id="suggestMain" type="text" class="form-control" style="width: 500px" ng-model="term" placeholder="Enter Keyword">
+				<span style="width: 30px" ng-click="move();" class="input-group-addon">
+					<span style="font-size: 16px;cursor: pointer;" class="glyphicon glyphicon-ok text-success"></span>
+				</span>
+			</div>
+			<br/>
+			<div class="input-group">
+				<select multiple="multiple" ng-options="value for f in selecteddrugs" size="10" style="width: 540px">
+				</select>
 			</div>
 		</div>	
 	</div>
