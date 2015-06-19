@@ -8,7 +8,7 @@ function monkeyPatchAutocomplete() {
     };
 }
 
-function enableAutoComplete(elemID) {
+function enableAutoComplete(elemID, uri) {
     // this method will make the matching text appear in bold when typing
     // keyword.
     monkeyPatchAutocomplete();
@@ -16,8 +16,9 @@ function enableAutoComplete(elemID) {
     var input = $("#" + elemID);
     input.autocomplete({
 	source : function(request, response) {
+	    var searchTerm = request.term.replace(/\ /g, '+');
 	    $.ajax({
-		url : "https://api.fda.gov/drug/label.json?limit=25&search=openfda.brand_name:" + request.term + "+openfda.generic_name:" + request.term,
+		url : uri + searchTerm.toLowerCase(),
 		success : function(data) {
 		    var arr = [];
 		    $(data.results).each(function(idx) {
@@ -25,13 +26,13 @@ function enableAutoComplete(elemID) {
 			var genericname = $(this)[0].openfda.generic_name[0];
 			
 			if(brandname.toLowerCase().indexOf(request.term.toLowerCase()) >= 0) {
-			    arr.push(brandname);
+			    arr.push(brandname.toLowerCase());
 			}
 			if(genericname.toLowerCase().indexOf(request.term.toLowerCase()) >= 0) {
-			    arr.push(genericname);
+			    arr.push(genericname.toLowerCase());
 			}
 		    });
-		    response(arr);
+		    response($.unique(arr));
 		}
 	    });
 	},

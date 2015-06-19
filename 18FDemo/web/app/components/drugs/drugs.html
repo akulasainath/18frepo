@@ -1,27 +1,61 @@
-<div ng-controller="DrugsController" align="center">
-	<div class="panel" style="height: 500px;padding-top: 100px;">
-		<div class="panel-heading main-panel-heading">
-			<h2>Search for Drugs</h2>
-		</div>
-		<div class="panel-body">
-			<div class="input-group">
-				<input id="suggestMain" type="text" class="form-control" style="width: 500px" ng-model="term" placeholder="Enter Keyword">
-				<span style="width: 30px" ng-click="move();" class="input-group-addon">
-					<span style="font-size: 16px;cursor: pointer;" class="glyphicon glyphicon-ok text-success"></span>
+<div ng-controller="DrugsController" class="container pull-left fill" style="min-height: 600px;" ng-init="init();">
+	<div id="map" class="row">
+		<div class="col-sm-3" style="border-right: 1px solid grey; min-height: 650px; padding-top: 25px">
+			<div align="center">
+				<img alt="logo" src="/demo/assets/img/logo.png"/><br/><br/>
+			</div>
+			<h5>Search Drugs by Generic Name</h5>
+			<div class="input-group" style="width: 250px">
+				<input id="suggestGeneric" type="text" class="form-control"
+					ng-model="termGeneric" placeholder="Enter Keyword" ng-disabled="selecteddrugs.length >= 5"> <span
+					style="width: 30px" ng-click="termGeneric?move('generic'):0" class="input-group-addon">
+					<span style="font-size: 16px; cursor: pointer;"
+					class="glyphicon glyphicon-ok text-success"></span>
+				</span>
+			</div>
+			<h5>Search Drugs by Brand Name</h5>
+			<div class="input-group" style="width: 250px">
+				<input id="suggestBrand" type="text" class="form-control"
+					ng-model="termBrand" placeholder="Enter Keyword" ng-disabled="selecteddrugs.length >= 5"> <span
+					style="width: 30px" ng-click="termBrand?move('brand'):0" class="input-group-addon">
+					<span style="font-size: 16px; cursor: pointer;"
+					class="glyphicon glyphicon-ok text-success"></span>
 				</span>
 			</div>
 			<br/>
-			<div class="input-group">
-				<select multiple="multiple" ng-options="value for f in selecteddrugs" size="10" style="width: 540px">
-				</select>
+			<h4>Selected Drugs</h4>
+			<div class="list-group" style="width: 250px">
+				<div class="list-group-item" ng-if="isEmpty(selecteddrugs);">None</div>
+				<div class="list-group-item row" ng-if="!isEmpty(selecteddrugs);" ng-repeat="drug in selecteddrugs">
+					<div class="pull-left col-xs-6">{{drug.term}}</div>
+					<div class="pull-right"><span style="cursor: pointer;" ng-click="remove(drug);" class="glyphicon glyphicon-trash text-danger"></span></div>
+				</div>
 			</div>
-		</div>	
+		</div>
+		<div class="col-sm-9" style="padding-top: 10px;" ng-if="!isEmpty(selecteddrugs);">
+			<h4>Overall top 10 Serious Reactions/Adverse Effects compared against your drugs.</h4>
+			<table class="table table-striped" style="width: 100%" border="0">
+				<thead>
+					<tr>
+						<th class="col-md-3" style="background-color: lightgray">&nbsp;</th>
+						<th style="background-color: lightgray; vertical-align: middle;" ng-repeat="seriousreaction in serious">{{seriousreaction.term}}<br/>({{seriousreaction.count | number}})</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-if="!isEmpty(selecteddrugs);" ng-repeat="item in selecteddrugs">
+						<td style="vertical-align: middle;font-weight: bold;" class="text-center" class="col-md-3">{{item.term}}<br/>({{item.count | number}})</td>
+						<td style="vertical-align: middle;text-align: center;" ng-repeat="drugreaction in drugreactions[$index]"><span ng-if="drugreaction.count">{{drugreaction.count | number}}</span><span ng-if="!drugreaction.count">-</span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 </div>
 
 
 <script>
-	$(document).ready(function() {
-		enableAutoComplete("suggestMain");
-	});
+    $(document).ready(function() {
+		enableAutoComplete("suggestGeneric", "https://api.fda.gov/drug/label.json?limit=15&search=openfda.generic_name:");
+		enableAutoComplete("suggestBrand", "https://api.fda.gov/drug/label.json?limit=15&search=openfda.brand_name:");
+    });
 </script>
