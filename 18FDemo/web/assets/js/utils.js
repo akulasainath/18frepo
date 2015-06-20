@@ -18,7 +18,7 @@ function enableAutoComplete(elemID, uri) {
 	source : function(request, response) {
 	    var searchTerm = request.term.replace(/\ /g, '+');
 	    $.ajax({
-		url : uri + searchTerm.toLowerCase(),
+		url : "https://api.fda.gov/drug/label.json?limit=15&search=openfda.generic_name:" + searchTerm.toLowerCase() + "+openfda.brand_name:" + searchTerm.toLowerCase(),
 		success : function(data) {
 		    var arr = [];
 		    $(data.results).each(function(idx) {
