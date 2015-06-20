@@ -1,0 +1,12 @@
+.progressbar {
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	display:none;
+	background: rgba(0,0,0,.15);
+	height: 100%;
+	width: 100%;
+	padding-top:25%;
+	text-align: center;
+}
