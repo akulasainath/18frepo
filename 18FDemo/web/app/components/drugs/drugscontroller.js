@@ -1,6 +1,7 @@
 var drugscontrollers = {};
 
-drugscontrollers.DrugsController = function($scope, $http, $location, $routeParams) {
+drugscontrollers.DrugsController = function($scope, $http, $location, $routeParams) 
+{
         $scope.termGeneric = '';
         $scope.country = '';
         $scope.sex = '';
