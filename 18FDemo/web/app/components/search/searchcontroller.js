@@ -19,4 +19,4 @@ searchcontrollers.SearchController = function($scope, $http, $location, $routePa
     
 }
 
-demoApp.controller(searchcontrollers);
+openFDAApp.controller(searchcontrollers);

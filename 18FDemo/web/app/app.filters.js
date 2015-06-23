@@ -1,6 +1,6 @@
-var filters = {};
+'use strict';
 
-filters.textOrNumber = function($filter) {
+angular.module('openFDAApp').filter('textOrNumber', ['$filter', function($filter) {
     return function(input) {
 	if (isNaN(input)) {
 	    return "<b>-</b>";
@@ -9,4 +9,4 @@ filters.textOrNumber = function($filter) {
 	}
     };
 }
-demoApp.filter(filters);
+]);

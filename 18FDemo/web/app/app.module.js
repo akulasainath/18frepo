@@ -1,0 +1,1 @@
+openFDAApp = angular.module('openFDAApp', [ 'ngRoute', 'ngResource']);
