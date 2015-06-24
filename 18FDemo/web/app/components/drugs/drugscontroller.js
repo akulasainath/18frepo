@@ -41,7 +41,9 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
             $scope.searchterms.push(searchTerm);
             $http.get('https://api.fda.gov/drug/event.json?count=patient.reaction.reactionmeddrapt.exact&limit=1000&search=(patient.drug.openfda.generic_name:' + searchTerm + '+patient.drug.openfda.brand_name:' + searchTerm + ')'+filter, { cache: true})
                     .success(function(jsonResp) {
+                    	console.log('test sucessfull');
                         $scope.storage[searchTerm] = jsonResp.results;
+                       
                     });
         };
 
