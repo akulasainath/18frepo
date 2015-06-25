@@ -16,7 +16,7 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
         $scope.selectedReaction = '';
         
         //filters
-        $scope.countryFilter = '';
+        $scope.countryFilter = 'US';
         $scope.genderFilter = '';
         $scope.outcomeFilter = '';
         $scope.filter = '';
@@ -37,6 +37,10 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
             $('#suggestGeneric').blur();
             //start progress bar.
             $('#progressbar').show();
+            
+            //set default filters, if any
+            $scope.setFilters();
+            
             //call indi drug search, this will in turn call combination search if success.
             var searchTerm = $scope.normalizeTerm($scope.searchForDrug);
             $scope.indiSearch(searchTerm, true);
