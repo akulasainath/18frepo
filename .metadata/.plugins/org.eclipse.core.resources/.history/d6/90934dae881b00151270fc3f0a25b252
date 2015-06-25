@@ -140,8 +140,7 @@ public class TestConfig extends TestListenerAdapter implements ITestListener{
 		} else if (targetBrowser.contains("ghost")) { // Gosht driver browser settins					
 			capability = DesiredCapabilities.phantomjs();
 			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir")+"\\src\\main\\resources\\ghostDriver\\phantomjs.exe");
-			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "\\usr\\lib\\phantomjs");
-			capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir")+"//src//main//resources//ghostDriver//phantomjs.exe");
+			capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "\\usr\\lib\\phantomjs");
 			this.driver = new PhantomJSDriver(capability);
 		}
 		/*System.out.println("Remote Grid : " + remote_grid );
