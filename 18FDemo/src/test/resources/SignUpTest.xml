@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='Sign Up Page' verbose='10'  parallel="tests" thread-count="1">
+ 	   		
+	<test name="Click on Signin of landing page" enabled="true">   <!-- Enable : "true" to run test or "false" to skip test -->
+		<classes>
+			<class name="com.automatic.test.SignUpTest">
+				<methods>
+					<include name="testLandingPageSignup" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>
+	  
+	  <test name="Submit signin page" enabled="true">
+		<classes>
+			<class name="com.automatic.test.SignUpTest">
+				<methods>
+					<include name="testSigninPageSignup" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>
+	
+	
+	
+	<test name="Submit signup page" enabled="true">
+		<classes>
+			<class name="com.automatic.test.SignUpTest">
+				<methods>
+					<include name="testSignUpPage" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>	  
+	  
+	  </suite>	

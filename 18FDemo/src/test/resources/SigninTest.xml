@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='Signin page' verbose='10'  parallel="tests" thread-count="1">
+ 	   	
+	    	
+	  <test name="Check Signin button" enabled="true">
+		<classes>
+			<class name="com.automatic.test.SigninTest">
+				<methods>
+					<include name="testLandingPage" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>
+	  
+	  <test name="Submit signin form" enabled="true">
+		<classes>
+			<class name="com.automatic.test.SigninTest">
+				<methods>
+					<include name="testSigninPage" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>
+	  
+	  <test name="Submit signin form using credentials from excel file" enabled="true">
+		<classes>
+			<class name="com.automatic.test.SigninTest">
+				<methods>
+					<include name="testSigninPageFromExcel" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>
+	  	
+	  </suite>
