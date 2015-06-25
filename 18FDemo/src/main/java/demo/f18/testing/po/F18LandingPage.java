@@ -1,6 +1,5 @@
 package demo.f18.testing.po;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import demo.f18.testing.util.BaseTestUtil;
@@ -12,27 +11,11 @@ public class F18LandingPage extends BaseTestUtil {
 		super(driver);
 	
 	}
-	
-/*	By byLinkSignin= By.id("nav-link-yourAccount");
-	By byButtonSignin= By.xpath("//*[@id='nav-flyout-ya-signin']/a/span");
-	By byMouseDropdown= By.id("nav-shop-all-button");
-	By byClickFacebookLinkFooter=By.xpath("//*[@id='navFooter']/table/tbody/tr/td[3]/ul/li[1]/a");
-*/	
-	public void verifyLandingPage(){	
-		
+
+	void verifyLandingPage(){			
 		isTextDisplayed("h5", "Search Drugs by Generic Name");
-		isTextDisplayed("h5", "Search Drugs by Brand Name");	
-		
-	/*	waitForElementDisplayed(byLinkSignin);
-		
-		WebElement element= driver.findElement(byLinkSignin);
-		
-		mouseOver(element);
-		
-		click(byButtonSignin);*/
-		
-		}	
-	
+		isTextDisplayed("h5", "Search Drugs by Brand Name");		
+		}		
 	
 }
 
