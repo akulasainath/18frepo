@@ -19,17 +19,11 @@ public class F18LandingPageTest extends TestConfig {
 		fail("Title Verified",	landingPage.getWebDriver().getTitle(),	"Drug Reaction Research Report");	
 		fail("Current Url Verified",landingPage.getWebDriver().getCurrentUrl(), "http://openfdatest.ventera.com/demo/#/drugs/");
 		log("Verify Text on the Page", FrameworkConstants.TEST);
-		//landingPage.verifyLandingPage();
-		//landingPage.closeBroswer();
+		landingPage.verifyLandingPage();
+		landingPage.closeBroswer();
 	
 	}
-	@Test(priority=2)
-	public void enterDrugDetails () throws Exception {
-		F18HomePage homePage = new F18HomePage(driver);
-		//homePage.verifyLandingPage();
-		homePage.enterSearchDrugFromExcelFile(System.getProperty("user.dir")+"\\src\\main\\resources\\testData\\DrugDetails.xls");
-		homePage.closeBroswer();
-	}	
+	
 
 		
 				

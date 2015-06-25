@@ -2,3 +2,7 @@
 [TestNG] DEBUG  -  Name of current test : testLandingPage
 [TestNG] DEBUG  - Website Url : http://openfda.ventera.com/demo/index.html#/drugs/Selenium Hub : Target Browser : ieOS Version : 32bit
 [TestNG] DEBUG  -  Name of current test : testLandingPage
+[TestNG] DEBUG  - Website Url : http://openfda.ventera.com/demo/index.html#/drugs/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : testLandingPage
+[main] DEBUG  - Website Url : http://openfda.ventera.com/demo/index.html#/drugs/Selenium Hub : Target Browser : ffOS Version : 32bit
+[main] DEBUG  -  Name of current test : testLandingPage
