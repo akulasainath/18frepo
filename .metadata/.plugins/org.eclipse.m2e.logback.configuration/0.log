@@ -419,3 +419,7 @@
 2015-06-25 17:38:12,813 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
 2015-06-25 17:38:25,105 [Worker-167] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\development\workspace_03\18FDemo
 2015-06-25 17:38:25,105 [Worker-167] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-06-25 18:15:48,184 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 18:15:48,187 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 18:15:54,695 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 18:15:54,695 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
