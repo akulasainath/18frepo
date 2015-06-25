@@ -1,0 +1,8 @@
+1	  User Story / Tasks Clear:	User stories selected for the sprint are complete with respect to product theme, understood by the team, and have been validated by the detailed acceptance criteria.
+2	  Code Produced: Design complete, code commented.  Unit tested against Acceptance Criteria and passes.
+3	  Code Committed:	Checked in and run against current version in source control; Builds without errors.  
+4	  Code Reviewed:Adheres to coding guidelines.  Complete peer review changes.
+5.  Code Unit Tested:	Prototype passes unit test scripts to the satisfaction of the developer.
+6.	Integration Tested:	Deployed to system test environment and passed system tests; Performance Tested; Automated Tests, Smoke & Regression Tested (Follow 80/20 rule)
+7.	Acceptance Tested:	Acceptance Criteria 100% complete
+8. 	Product Owner Accepted:	Each finished user story has been passed through INTEG testing and signed off as meeting requirements (will be signed off during Testable Demo) review
