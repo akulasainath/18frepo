@@ -1,76 +1,146 @@
 
-<div ng-cloak ng-controller="DrugsController" class="container pull-left fill">
+<div ng-cloak ng-controller="DrugsController"
+	class="container pull-left fill">
 	<div class="row">
-		<div class="col-sm-3" style="border-right: 1px solid grey; min-height: 650px; padding-top: 25px">
+		<div class="col-sm-3"
+			style="border-right: 1px solid grey; min-height: 650px; padding-top: 25px">
 			<div align="center">
-				<img alt="logo" src="/demo/assets/img/logo.png"/><br/><br/>
+				<img alt="logo" src="/demo/assets/img/logo.png" /><br /> <br />
 			</div>
-			<h4>Search Drugs</h4>
-			<div class="input-group">
-				<input id="suggestGeneric" type="text" class="form-control" ng-keypress="($event.which === 13)?move():0"
-					ng-model="searchForDrug" placeholder="Enter Keyword" ng-disabled="selecteddrugs.length >= 5"> <span id="addDrug"
-					ng-click="(searchForDrug && selecteddrugs.indexOf(searchForDrug) == -1)?move():0" class="input-group-addon">
-					<span style="font-size: 16px; cursor: pointer;" class="glyphicon glyphicon-ok text-primary"></span>
-				</span>
-			</div>
-			<br/>
-			<h4>Selected Drugs</h4>
-			<div class="list-group">
-				<div class="list-group-item" ng-if="isEmpty(selecteddrugs);">None</div>
-				<div class="list-group-item row" style="margin-left: inherit; margin-right: inherit;" ng-if="!isEmpty(selecteddrugs);" ng-repeat="drug in selecteddrugs">
-					<div class="col-sm-6 pull-left" style="margin-left: -15px"><span style="text-transform: capitalize;" id="selectedDrugs{{$index}}">{{drug}}</span></div>
-					<div class="col-sm-2 pull-right" ><span style="cursor: pointer;" id="removeDrug{{$index}}" ng-click="remove(drug);" class="glyphicon glyphicon-trash text-danger"></span></div>
+
+			<div class="panel panel-primary" style="margin-bottom: 5px;padding-bottom: 0;">
+				<div class="panel-heading">
+					<h3 class="panel-title">Search Drugs</h3>
+				</div>
+
+				<div class="panel-body" style="padding-bottom: 0;">
+					<div class="input-group">
+						<input id="suggestGeneric" type="text" class="form-control"
+							ng-keypress="($event.which === 13)?move():0"
+							ng-model="searchForDrug" placeholder="Enter Keyword"
+							ng-disabled="selecteddrugs.length >= 5">
+						<span
+							id="addDrug"
+							ng-click="(searchForDrug && selecteddrugs.indexOf(searchForDrug) == -1)?move():0"
+							class="input-group-btn">
+							<button class="btn btn-primary" type="button">Go!</button>
+						</span>
+					</div>
+					<br/>
+					<h5><b>Selected Drugs</b><br/><small>(Interactively search for up to 5 drugs)</small></h5>
+					<div class="list-group">
+						<div class="list-group-item" ng-if="isEmpty(selecteddrugs);">None</div>
+						<div class="list-group-item row"
+							style="margin-left: inherit; margin-right: inherit;"
+							ng-if="!isEmpty(selecteddrugs);" ng-repeat="drug in selecteddrugs">
+							<div class="col-md-10 pull-left" style="margin-left: -15px">
+								<span style="text-transform: capitalize;"
+									id="selectedDrugs{{$index}}">{{drug}}</span>
+							</div>
+							<div class="col-sm-2 pull-right">
+								<span style="cursor: pointer;" id="removeDrug{{$index}}"
+									ng-click="remove(drug);"
+									class="glyphicon glyphicon-trash text-danger"></span>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="input-group">
-				<h4>Other filters</h4>
-				<h5><b>Outcome:</b></h5>
-				<div style="margin-left:10px;" class="checkbox"><label><input type="checkbox" id="seriousOutcome" ng-model="outcomeFilter" ng-true-value="'1'" ng-false-value="''" ng-click="applyFilter();">Serious</label></div>
-				<h5><b>Country:</b></h5>
-				<div style="margin-left:10px;" class="checkbox"><label><input type="checkbox" id="countryUS" ng-model="countryFilter" ng-true-value="'US'" ng-false-value="''" ng-click="applyFilter();">U.S.</label></div>
-				<h5><b>Gender:</b></h5>
-				<div style="margin-left:10px;" class="radio"><label><input type="radio" name="genderFilter" id="genderAll" ng-model="genderFilter" ng-value="''" ng-change="applyFilter();">All</label></div>
-				<div style="margin-left:10px;" class="radio"><label><input type="radio" name="genderFilter" id="genderMale" ng-model="genderFilter" ng-value="'1'" ng-change="applyFilter();">Male</label></div>
-  				<div style="margin-left:10px;" class="radio"><label><input type="radio" name="genderFilter" id="genderFemale" ng-model="genderFilter" ng-value="'2'" ng-change="applyFilter();">Female</label></div>
+			<div class="panel panel-primary" style="margin-bottom: 5px;padding-bottom: 0;">
+				<div class="panel-heading">
+					<h3 class="panel-title">Filter Incidents</h3>
+				</div>
+				<div class="panel-body input-group" style="padding-bottom: 0;">
+					<h5>
+						<b>Incident Outcome:</b>
+					</h5>
+					<div style="margin-left: 10px;" class="checkbox">
+						<label><input type="checkbox" id="seriousOutcome"
+							ng-model="outcomeFilter" ng-true-value="'1'" ng-false-value="''"
+							ng-click="applyFilter();">Serious</label>
+					</div>
+					<h5>
+						<b>Incident Location:</b>
+					</h5>
+					<div style="margin-left: 10px;" class="checkbox">
+						<label><input type="checkbox" id="countryUS"
+							ng-model="countryFilter" ng-true-value="'US'" ng-false-value="''"
+							ng-click="applyFilter();">U.S.</label>
+					</div>
+					<h5>
+						<b>Patient Gender:</b>
+					</h5>
+					<div style="margin-left: 10px;" class="radio">
+						<label><input type="radio" name="genderFilter"
+							id="genderAll" ng-model="genderFilter" ng-value="''"
+							ng-change="applyFilter();">All</label>
+					</div>
+					<div style="margin-left: 10px;" class="radio">
+						<label><input type="radio" name="genderFilter"
+							id="genderMale" ng-model="genderFilter" ng-value="'1'"
+							ng-change="applyFilter();">Male</label>
+					</div>
+					<div style="margin-left: 10px;" class="radio">
+						<label><input type="radio" name="genderFilter"
+							id="genderFemale" ng-model="genderFilter" ng-value="'2'"
+							ng-change="applyFilter();">Female</label>
+					</div>
+				</div>
 			</div>
 		</div>
-		
 		<div class="col-sm-9" style="padding-top: 10px;" ng-if="!isEmpty(selecteddrugs);">
-			<h3><u>Most likely Serious Reactions/Adverse Effects for your Drugs</u></h3>
-			<div class="alert alert-warning alert-dismissible" role="alert" style="font-size: 12px">
-				<button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="$('.alert').hide();"><span aria-hidden="true">&times;</span></button>
-				<strong><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;Warning message:</strong>&nbsp;This is a prototype using openFDA which is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.
-			</div>
-			
+			<h3>
+				<u>Most likely Serious Reactions/Adverse Effects for your Drugs</u>
+			</h3>
 			<!-- THIS IS WHERE THE CHART GETS GENERATED. -->
-			<div id="chartDiv" class="text-danger"></div>
-			
-		 	<table class="table table-striped table-bordered" border-collapse: separate;" id="tablePrimary">
+			<div id="chartDiv" class="text-danger"><br/></div>
+
+			<table class="table table-striped table-bordered border-collapse" id="tablePrimary">
 				<thead>
 					<tr>
 						<th class="bg-primary">
-							<div align="center" style="vertical-align: middle; text-align: right;padding-top: 3px">Drugs&nbsp;<sup><span class="glyphicon glyphicon-new-window" title="Links open in new window"></span></sup></div>
-							<div align="center" style="vertical-align: middle;padding-top: 10px"> Reactions <sup><span class="glyphicon glyphicon-new-window"  title="Links open in new window"></span></sup></div>
+							<div align="center"
+								style="vertical-align: middle; text-align: right; padding-top: 3px">
+							</div>
+							<div style="vertical-align: middle; padding-top: 10px">
+								Reactions
+							</div>
 						</th>
-						<th class="bg-primary" style="vertical-align: middle;" ng-repeat="item in selecteddrugs"><span style="text-transform: capitalize;"><a target="_blank" href="http://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&query={{item}}" style="color: white;"><span id="drug{{$index}}">{{item}}</span></a></span></span></th>
+						<th class="bg-primary" style="vertical-align: middle;"
+							ng-repeat="item in selecteddrugs"><span
+							style="text-transform: capitalize;"><a target="_blank"
+								href="http://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&query={{item}}"
+								style="color: white;"><span id="drug{{$index}}">{{item}}</span></a></span></span></th>
 					</tr>
 				</thead>
-				<tbody>	
+				<tbody>
 					<tr ng-repeat="reaction in top10Reactions">
-						<td class="bg-primary" style="vertical-align: middle;border-bottom: medium !important; width: 25%"><a target="_blank" href="http://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&query={{reaction.term}}" style="color: white;"><span id="reaction{{$index}}">{{reaction.term}}</span></a><span id="reactionCount{{$index}}">({{reaction.count | number}})</span>
-							<a ng-click="drawChart($index, reaction.term);" title="Show Graph" style="cursor: pointer;"><img src="/demo/assets/img/chart.ico" width="20px" height="20px"/></a></td>
-						<td style="vertical-align: middle;" ng-repeat="count in finalstorage" id="drugCount{{$index}}">{{count[$parent.$index] | textOrNumber}}</span></td>
+						<td class="bg-primary"
+							style="vertical-align: middle; border-bottom: medium !important; width: 25%"><a
+							target="_blank"
+							href="http://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&query={{reaction.term}}"
+							style="color: white;"><span id="reaction{{$index}}">{{reaction.term}}</span></a>
+							<a ng-click="drawChart($index, reaction.term);"
+							title="Show Graph" style="cursor: pointer;"><img
+								src="/demo/assets/img/chart.ico" width="20px" height="20px" /></a></td>
+						<td style="vertical-align: middle;"
+							ng-repeat="count in finalstorage" id="drugCount{{$index}}">{{count[$parent.$index]
+							| textOrNumber}}</span>
+						</td>
 					</tr>
-		 		</tbody>
+				</tbody>
 			</table>
 		</div>
 	</div>
 </div>
 
 
-<script>
-    $(document).ready(function() {
-		//enable autocomplete once the page loads. 
-		enableAutoComplete("suggestGeneric", "https://api.fda.gov/drug/label.json?limit=15&search=openfda.generic_name:");
-    });
-</script>
+	<script>
+	$(document)
+		.ready(
+			function() {
+			    //enable autocomplete once the page loads. 
+			    enableAutoComplete("suggestGeneric",
+				    "https://api.fda.gov/drug/label.json?limit=15&search=openfda.generic_name:");
+			});
+    </script>

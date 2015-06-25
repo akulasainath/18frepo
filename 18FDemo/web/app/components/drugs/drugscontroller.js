@@ -40,6 +40,7 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
             //call indi drug search, this will in turn call combination search if success.
             $scope.selecteddrugs.push($scope.searchForDrug);
             var searchTerm = $scope.normalizeTerm($scope.searchForDrug);
+            $scope.searchterms.push(searchTerm);
             $scope.indiSearch(searchTerm, true);
         };
         
@@ -52,7 +53,6 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
          * For Ex: Where drug brand name or generic name is Drug A
          */
         $scope.indiSearch = function(searchTerm, flag) {
-            $scope.searchterms.push(searchTerm);
             $http.get(BASE_URL+ LIMIT_1000_PARAM + '&'+COUNT_PARAM+'&search=('+GENERIC_NAME+ searchTerm + '+' + BRAND_NAME + searchTerm + ')'+$scope.filter, { cache: true})
             	.success(function(jsonResp) {
             	    $scope.drugReactionResults[searchTerm] = jsonResp.results;
