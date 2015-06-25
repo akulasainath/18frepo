@@ -1,11 +1,28 @@
-describe('openFDAApp', function() {
+describe('Filter Test', function () {
+  'use strict'; 
+  var $filter;
   beforeEach(function () {
-      module('openFDAApp');
+    module('openFDAApp');
+    inject(function (_$filter_) {
+      $filter = _$filter_;
+    });
   });
 
-  it('is a number', inject(function($filter) {
-      expect($filter('textOrNumber')).not.toBeNull();
-      var length = $filter('number');
-      expect(length(5, 1));
-  }));
+  it('string', function () {
+    var foo = 'Test String', result;
+    result = $filter('textOrNumber')(foo, 'string');
+    expect(result).toEqual('<b>-</b>');
+  });
+  
+  it('special char', function () {
+	    var foo = '#', result;
+	    result = $filter('textOrNumber')(foo, 'special char');
+	    expect(result).toEqual('<b>-</b>');
+	  });
+  
+  it('number', function () {
+	    var foo = 12, result;
+	    result = $filter('textOrNumber')(foo, Number(foo));
+	    expect(result).toEqual('12');
+	  });
 });
