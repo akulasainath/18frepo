@@ -27,8 +27,8 @@ public class F18HomePage extends BaseTestUtil {
 	By SelectSexAll = By.xpath("//input[@name='sex' and @value='']");
 	By SelectSexMale = By.xpath("//input[@name='sex' and @value='1']");
 	By SelectSexFemale = By.xpath("//input[@name='sex' and @value='2']");
-	//By ButtonSearchDrug = By.xpath("html/body/div[2]/div/div/div/div/div/div[3]/div/a/button");
-	By ButtonSearchDrug = By.xpath("html/body/div[2]/div/div/div[4]/div/a/button");
+	By ButtonSearchDrug = By.xpath("html/body/div[2]/div/div/div/div/div/div[3]/div/a/button");
+
 	
 	public void clickSearchDrugButton(){	
 		//System.out.println("src" + driver.getPageSource());
