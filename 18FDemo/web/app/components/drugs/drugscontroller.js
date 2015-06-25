@@ -241,6 +241,9 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
          * Method to generate chart when user clicks graph icon on a reaction.
          */
         $scope.drawChart = function(idx, term) {
+            if($scope.chart) {
+    	    	$scope.chart.clearChart();
+            }
             $("#chartDivMessage").hide();
             $scope.drugCounts = [];
             $scope.idx = idx;
@@ -281,12 +284,13 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
             $scope.chart = new google.visualization.BarChart(document.getElementById('chartDiv'));
             $scope.chart.draw(data3, {
         	title: 'Reaction: ' + selectedReaction,
-                isStacked: 'true',
+                isStacked: 'percent',
                 legend: {position: 'none'},
                 colors: ['#5bc0de','#428bca'],
                 tooltip: {
                     trigger: 'both'
-                }
+                },
+                backgroundColor: { fill:'transparent' }
             });
         }
         
@@ -297,9 +301,6 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
         //when the window resizes, redraw the chart to make it responsive.
         $(window).resize(function (event) {
             if($scope.selectedReaction) {
-        	if($scope.chart) {
-        	    $scope.chart.clearChart();
-        	}
         	$scope.drawChart($scope.idx,  $scope.selectedReaction);
             }
         });
