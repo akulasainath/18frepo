@@ -92,8 +92,12 @@
 			<h3>
 				<u>Most likely Serious Reactions/Adverse Effects for your Drugs</u>
 			</h3>
+			
+			
 			<!-- THIS IS WHERE THE CHART GETS GENERATED. -->
-			<div id="chartDiv" class="text-danger"><br/></div>
+			<div id="chartDiv" style="width: 100%; height: 30%;"></div>
+			<div id="chartDivMessage" class="text-danger" style="display: none"><br/></div>
+
 
 			<table class="table table-striped table-bordered border-collapse" id="tablePrimary">
 				<thead>
@@ -111,21 +115,22 @@
 							style="text-transform: capitalize;"><a target="_blank"
 								href="http://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&query={{item}}"
 								style="color: white;"><span id="drug{{$index}}">{{item}}</span></a></span></span></th>
+						<th class="bg-primary" style="vertical-align: middle;">View Graph</th>		
 					</tr>
 				</thead>
 				<tbody>
-					<tr ng-repeat="reaction in top10Reactions">
+					<tr ng-repeat="reaction in top10Reactions | limitTo: 10">
 						<td class="bg-primary"
 							style="vertical-align: middle; border-bottom: medium !important; width: 25%"><a
 							target="_blank"
 							href="http://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&query={{reaction.term}}"
-							style="color: white;"><span id="reaction{{$index}}">{{reaction.term}}</span></a>
-							<a ng-click="drawChart($index, reaction.term);"
-							title="Show Graph" style="cursor: pointer;"><img
-								src="/demo/assets/img/chart.ico" width="20px" height="20px" /></a></td>
+							style="color: white;"><span id="reaction{{$index}}">{{reaction.term}}</span></a></td>
 						<td style="vertical-align: middle;"
 							ng-repeat="count in finalstorage" id="drugCount{{$index}}">{{count[$parent.$index]
 							| textOrNumber}}</span>
+						</td>
+						<td style="vertical-align: middle; width: 5%">
+							<a ng-click="drawChart($index, reaction.term);" title="Show Graph" style="cursor: pointer;"><img src="/demo/assets/img/chart.ico" width="20px" height="20px" /></a>
 						</td>
 					</tr>
 				</tbody>
