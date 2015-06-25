@@ -1,0 +1,24 @@
+Installation Steps (for chrome browser):
+
+Make sure nodejs is installed on the machine before proceeding. Nodejs can be installed from the below URL.
+https://nodejs.org/download/
+
+Once you have NodeJs installed, please follow the below steps:
+
+Open command prompt window and type in these steps sequentially.
+
+> npm install -g karma --save-dev
+This installs karma globally on the current machine.
+
+> npm install -g karma-jasmine karma-chrome-launcher --save-dev
+This installs the plugins to launch Chrome from the current machine. We can add plugins for other browsers as needed.
+
+> npm install -g karma-cli
+
+Once you have karma installed, we need to setup the configurations and start karma. Follow the below steps.
+
+> karma init my.conf.js
+This takes you through a series of questions on setting up yout configuration file. At the end of it, you will see a configuration file with the name 'my.conf.js'.
+
+> karma start my.conf.js
+Runs the Unit Testing and tests all available unit tests configured and provides the test results. Any new change on the code coming in will be picked up automatically.
