@@ -77,3 +77,345 @@
 2015-06-25 13:29:04,708 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
 2015-06-25 13:29:06,086 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-06-25 13:29:06,087 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 13:59:34,840 [Worker-81] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\development\workspace_03\18FDemo
+2015-06-25 13:59:34,841 [Worker-81] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2015-06-25 14:00:21,515 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 14:00:21,515 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 14:00:21,517 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 14:00:21,520 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 14:00:56,534 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 14:00:56,534 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 14:00:56,535 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 14:00:56,536 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:07:06,600 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\development\workspace_03\18FDemo
+2015-06-25 16:07:06,600 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-06-25 16:07:08,609 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:07:08,611 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:07:10,112 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:07:10,114 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:09:55,742 [Worker-108] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-06-25 16:09:55,834 [Worker-108] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 16:09:56,654 [Worker-108] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-06-25 16:09:56,654 [Worker-108] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-06-25 16:09:56,655 [Worker-108] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-06-25 16:09:56,655 [Worker-108] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-06-25 16:09:56,855 [Worker-108] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-06-25 16:09:59,661 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:09:59,662 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:10:01,219 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:10:01,220 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:15:20,488 [Worker-111] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 16:15:21,135 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/github/detro/phantomjsdriver/1.2.0/phantomjsdriver-1.2.0.pom
+2015-06-25 16:15:21,160 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/github/detro/phantomjsdriver/1.2.0/phantomjsdriver-1.2.0.pom
+2015-06-25 16:15:21,179 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/2.41.0/selenium-java-2.41.0.pom
+2015-06-25 16:15:21,204 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/2.41.0/selenium-java-2.41.0.pom
+2015-06-25 16:15:21,222 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-parent/2.41.0/selenium-parent-2.41.0.pom
+2015-06-25 16:15:21,290 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-parent/2.41.0/selenium-parent-2.41.0.pom
+2015-06-25 16:15:21,313 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.41.0/selenium-chrome-driver-2.41.0.pom
+2015-06-25 16:15:21,335 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.41.0/selenium-chrome-driver-2.41.0.pom
+2015-06-25 16:15:21,355 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.41.0/selenium-remote-driver-2.41.0.pom
+2015-06-25 16:15:21,376 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.41.0/selenium-remote-driver-2.41.0.pom
+2015-06-25 16:15:21,398 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.41.0/selenium-api-2.41.0.pom
+2015-06-25 16:15:21,426 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.41.0/selenium-api-2.41.0.pom
+2015-06-25 16:15:21,451 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/guava/guava/15.0/guava-15.0.pom
+2015-06-25 16:15:21,475 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/guava/guava/15.0/guava-15.0.pom
+2015-06-25 16:15:21,496 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/guava/guava-parent/15.0/guava-parent-15.0.pom
+2015-06-25 16:15:21,522 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/guava/guava-parent/15.0/guava-parent-15.0.pom
+2015-06-25 16:15:21,544 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.pom
+2015-06-25 16:15:21,567 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.pom
+2015-06-25 16:15:21,587 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.1/httpcomponents-client-4.3.1.pom
+2015-06-25 16:15:21,617 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.1/httpcomponents-client-4.3.1.pom
+2015-06-25 16:15:21,637 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.pom
+2015-06-25 16:15:21,660 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.pom
+2015-06-25 16:15:21,679 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3/httpcomponents-core-4.3.pom
+2015-06-25 16:15:21,706 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3/httpcomponents-core-4.3.pom
+2015-06-25 16:15:21,737 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.41.0/selenium-htmlunit-driver-2.41.0.pom
+2015-06-25 16:15:21,757 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.41.0/selenium-htmlunit-driver-2.41.0.pom
+2015-06-25 16:15:21,776 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit/2.13/htmlunit-2.13.pom
+2015-06-25 16:15:21,815 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit/2.13/htmlunit-2.13.pom
+2015-06-25 16:15:21,835 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.pom
+2015-06-25 16:15:21,855 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.pom
+2015-06-25 16:15:21,889 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+2015-06-25 16:15:21,913 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+2015-06-25 16:15:21,932 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.13/htmlunit-core-js-2.13.pom
+2015-06-25 16:15:21,953 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.13/htmlunit-core-js-2.13.pom
+2015-06-25 16:15:21,973 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.19/nekohtml-1.9.19.pom
+2015-06-25 16:15:21,993 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.19/nekohtml-1.9.19.pom
+2015-06-25 16:15:22,011 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/sourceforge/cssparser/cssparser/0.9.11/cssparser-0.9.11.pom
+2015-06-25 16:15:22,037 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/sourceforge/cssparser/cssparser/0.9.11/cssparser-0.9.11.pom
+2015-06-25 16:15:22,056 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.12.v20130726/jetty-websocket-8.1.12.v20130726.pom
+2015-06-25 16:15:22,077 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.12.v20130726/jetty-websocket-8.1.12.v20130726.pom
+2015-06-25 16:15:22,096 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/8.1.12.v20130726/jetty-project-8.1.12.v20130726.pom
+2015-06-25 16:15:22,134 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/8.1.12.v20130726/jetty-project-8.1.12.v20130726.pom
+2015-06-25 16:15:22,154 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/8.1.12.v20130726/jetty-util-8.1.12.v20130726.pom
+2015-06-25 16:15:22,175 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/8.1.12.v20130726/jetty-util-8.1.12.v20130726.pom
+2015-06-25 16:15:22,198 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/8.1.12.v20130726/jetty-io-8.1.12.v20130726.pom
+2015-06-25 16:15:22,224 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/8.1.12.v20130726/jetty-io-8.1.12.v20130726.pom
+2015-06-25 16:15:22,245 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/8.1.12.v20130726/jetty-http-8.1.12.v20130726.pom
+2015-06-25 16:15:22,265 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/8.1.12.v20130726/jetty-http-8.1.12.v20130726.pom
+2015-06-25 16:15:22,288 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/2.41.0/selenium-firefox-driver-2.41.0.pom
+2015-06-25 16:15:22,311 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/2.41.0/selenium-firefox-driver-2.41.0.pom
+2015-06-25 16:15:22,333 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.41.0/selenium-ie-driver-2.41.0.pom
+2015-06-25 16:15:22,360 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.41.0/selenium-ie-driver-2.41.0.pom
+2015-06-25 16:15:22,382 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/2.41.0/selenium-safari-driver-2.41.0.pom
+2015-06-25 16:15:22,404 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/2.41.0/selenium-safari-driver-2.41.0.pom
+2015-06-25 16:15:22,427 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/2.41.0/selenium-support-2.41.0.pom
+2015-06-25 16:15:22,451 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/2.41.0/selenium-support-2.41.0.pom
+2015-06-25 16:15:22,601 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/github/detro/phantomjsdriver/1.2.0/phantomjsdriver-1.2.0.jar
+2015-06-25 16:15:22,625 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/github/detro/phantomjsdriver/1.2.0/phantomjsdriver-1.2.0.jar
+2015-06-25 16:15:22,680 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.41.0/selenium-remote-driver-2.41.0.jar
+2015-06-25 16:15:23,120 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.41.0/selenium-remote-driver-2.41.0.jar
+2015-06-25 16:15:23,200 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.41.0/selenium-api-2.41.0.jar
+2015-06-25 16:15:23,465 [Worker-111] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.41.0/selenium-api-2.41.0.jar
+2015-06-25 16:15:23,880 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:15:23,881 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:15:23,882 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:15:23,883 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:15:26,313 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:15:26,316 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:15:27,875 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:15:27,877 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:17:43,265 [Worker-122] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.41.0/selenium-api-2.41.0-sources.jar
+2015-06-25 16:17:43,473 [Worker-122] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.41.0/selenium-api-2.41.0-sources.jar
+2015-06-25 16:17:43,544 [Worker-122] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-api:2.41.0
+2015-06-25 16:17:43,881 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:17:43,881 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:17:43,883 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:17:43,883 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:21:04,975 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:21:04,977 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:21:04,978 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:21:04,979 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:21:42,711 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:21:42,712 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-06-25 16:21:48,067 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:21:48,067 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:23:10,140 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:23:10,142 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 16:23:16,710 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:23:16,711 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:24:18,164 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:24:18,165 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 16:24:24,679 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:24:24,680 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:24:51,686 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:24:51,688 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 16:24:58,714 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:24:58,714 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:25:06,290 [Worker-122] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 16:25:07,277 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:25:07,277 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:25:07,279 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:25:07,279 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:25:16,708 [Worker-123] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-06-25 16:25:16,789 [Worker-123] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 16:25:17,799 [Worker-123] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-06-25 16:25:17,799 [Worker-123] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-06-25 16:25:17,800 [Worker-123] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-06-25 16:25:17,800 [Worker-123] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-06-25 16:25:18,012 [Worker-123] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-06-25 16:25:21,499 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:25:21,500 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 16:25:28,403 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:25:28,404 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:25:29,555 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:25:29,557 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 16:25:36,007 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:25:36,008 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:28:31,386 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:28:31,388 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 16:28:38,268 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:28:38,268 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:28:52,654 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:28:52,655 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:28:52,656 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:28:52,657 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:30:31,123 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:30:31,124 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 16:30:38,059 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:30:38,059 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:31:42,106 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:31:42,107 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 16:31:42,108 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:31:42,108 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 16:58:34,723 [Worker-134] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\development\workspace_03\18FDemo
+2015-06-25 16:58:34,723 [Worker-134] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2015-06-25 16:59:02,589 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:59:02,591 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 16:59:09,338 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 16:59:09,339 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:11:45,527 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:11:45,529 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 17:11:52,469 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:11:52,470 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:12:55,539 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:12:55,540 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:12:55,542 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:12:55,543 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:13:07,529 [Worker-145] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-06-25 17:13:07,630 [Worker-145] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:13:08,768 [Worker-145] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-06-25 17:13:08,769 [Worker-145] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-06-25 17:13:08,770 [Worker-145] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-06-25 17:13:08,770 [Worker-145] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-06-25 17:13:08,989 [Worker-145] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-06-25 17:13:11,983 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:13:11,984 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 17:13:18,955 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:13:18,955 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:13:29,600 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\development\workspace_03\18FDemo
+2015-06-25 17:13:29,600 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-06-25 17:14:33,228 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:14:33,228 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:14:33,229 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:14:33,231 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:14:48,559 [Worker-142] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:14:49,643 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:14:49,643 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:14:49,644 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:14:49,644 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:14:51,436 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:14:51,436 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:14:51,437 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:14:51,438 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:15:01,947 [Worker-147] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-06-25 17:15:02,022 [Worker-147] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:15:02,979 [Worker-147] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-06-25 17:15:02,980 [Worker-147] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-06-25 17:15:02,981 [Worker-147] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-06-25 17:15:02,981 [Worker-147] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-06-25 17:15:03,212 [Worker-147] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-06-25 17:15:06,049 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:15:06,049 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 17:15:13,140 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:15:13,141 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:15:38,624 [Worker-142] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\development\workspace_03\18FDemo
+2015-06-25 17:15:38,624 [Worker-142] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-06-25 17:17:36,658 [Worker-149] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:17:37,836 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:17:37,836 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:17:37,838 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:17:37,838 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:17:39,792 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:17:39,793 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:17:39,795 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:17:39,795 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:17:45,555 [Worker-141] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:17:46,438 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:17:46,438 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:17:46,439 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:17:46,440 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:17:55,760 [Worker-148] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:17:56,803 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:17:56,804 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:17:56,805 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:17:56,805 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:19:00,342 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:19:00,342 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:19:00,344 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:19:00,346 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:19:05,407 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:19:05,407 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:19:05,409 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:19:05,410 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:22:51,041 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:22:51,041 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:22:51,042 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:22:51,044 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:24:33,284 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:24:33,285 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:24:33,286 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:24:33,287 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:24:44,482 [Worker-154] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-06-25 17:24:44,585 [Worker-154] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:24:45,635 [Worker-154] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-06-25 17:24:45,636 [Worker-154] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-06-25 17:24:45,637 [Worker-154] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-06-25 17:24:45,637 [Worker-154] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-06-25 17:24:45,846 [Worker-154] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-06-25 17:24:48,395 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:24:48,396 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 17:24:55,971 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:24:55,973 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:27:59,494 [Worker-157] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:28:00,338 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:28:00,338 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:28:00,339 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:28:00,339 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:28:02,221 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:28:02,221 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:28:02,222 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:28:02,222 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:28:08,486 [Worker-144] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-06-25 17:28:08,565 [Worker-144] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:28:09,404 [Worker-144] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-06-25 17:28:09,404 [Worker-144] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-06-25 17:28:09,405 [Worker-144] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-06-25 17:28:09,405 [Worker-144] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-06-25 17:28:09,586 [Worker-144] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-06-25 17:28:12,396 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:28:12,397 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 17:28:19,259 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:28:19,260 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:29:43,742 [Worker-151] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-06-25 17:29:43,826 [Worker-151] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:29:44,712 [Worker-151] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-06-25 17:29:44,712 [Worker-151] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-06-25 17:29:44,713 [Worker-151] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-06-25 17:29:44,713 [Worker-151] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-06-25 17:29:44,919 [Worker-151] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-06-25 17:29:47,425 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:29:47,426 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 17:29:54,227 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:29:54,228 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:32:27,336 [Worker-144] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:32:28,231 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:32:28,231 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:32:28,232 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:32:28,233 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:32:30,178 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:32:30,178 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:32:30,179 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:32:30,180 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:32:32,853 [Worker-158] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:32:33,703 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:32:33,704 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:32:33,705 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:32:33,705 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:32:43,577 [Worker-159] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-06-25 17:32:43,646 [Worker-159] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:32:44,481 [Worker-159] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-06-25 17:32:44,481 [Worker-159] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-06-25 17:32:44,482 [Worker-159] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-06-25 17:32:44,482 [Worker-159] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-06-25 17:32:44,662 [Worker-159] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-06-25 17:32:47,154 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:32:47,155 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 17:32:54,145 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:32:54,146 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:36:45,473 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:36:45,473 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:36:45,474 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:36:45,475 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:37:29,498 [Worker-158] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:37:30,437 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:37:30,438 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:37:30,439 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:37:30,439 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:37:32,368 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:37:32,368 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:37:32,369 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:37:32,369 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-06-25 17:38:01,257 [Worker-163] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-06-25 17:38:01,332 [Worker-163] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-06-25 17:38:02,261 [Worker-163] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-06-25 17:38:02,261 [Worker-163] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-06-25 17:38:02,263 [Worker-163] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-06-25 17:38:02,263 [Worker-163] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-06-25 17:38:02,492 [Worker-163] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-06-25 17:38:05,223 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:38:05,224 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2015-06-25 17:38:12,812 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-06-25 17:38:12,813 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-06-25 17:38:25,105 [Worker-167] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\development\workspace_03\18FDemo
+2015-06-25 17:38:25,105 [Worker-167] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install

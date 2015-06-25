@@ -1,8 +1,11 @@
 package demo.f18.testing.po;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 import demo.f18.testing.util.BaseTestUtil;
 
@@ -13,33 +16,32 @@ public class F18HomePage extends BaseTestUtil {
 		super(driver);
 	
 	}
-	
+	By clickSearchDrugReaction = By.xpath("html/body/div[2]/div/div/div[4]/div/a/button");
 	By SearchDrugs= By.id("suggestGeneric");
-	By ButtonOk = By.className("input-group-addon");
-	By USCheckBox = By.xpath("html/body/div[2]/div/div/div/div[3]/div[2]/label/input");
-	By OutcomeSeriousCheckbox = By.xpath("html/body/div[2]/div/div/div/div[3]/div[1]/label/input");
+	By ButtonOk = By.id("addDrug");
+	By USCheckBox = By.id("countryUS");
+	By OutcomeSeriousCheckbox = By.id("seriousOutcome");
 
-	By SelectedDrug1 = By.xpath("html/body/div[2]/div/div/div[1]/div[2]/div/div[1]");
-	By Delete1 = By.xpath("html/body/div[2]/div/div/div[1]/div[2]/div/div[2]/span");
-	By SelectedDrug2 = By.xpath("//*[@id='map']/div[1]/div[3]/div[2]/div[1]/span");
-	By Delete2 = By.xpath("//*[@id='map']/div[1]/div[3]/div[2]/div[2]/span");
+	By selectedDrug1 = By.id("selectedDrugs0");
+	By Delete1 = By.id("removeDrug0");
+	By SelectedDrug2 = By.id("selectedDrugs1");
+	By Delete2 = By.id("removeDrug1");
 	
-	By SelectSexAll = By.xpath("//input[@name='sex' and @value='']");
-	By SelectSexMale = By.xpath("//input[@name='sex' and @value='1']");
-	By SelectSexFemale = By.xpath("//input[@name='sex' and @value='2']");
-	//By ButtonSearchDrug = By.xpath("html/body/div[2]/div/div/div/div/div/div[3]/div/a/button");
-	By ButtonSearchDrug = By.xpath("html/body/div[2]/div/div/div[4]/div/a/button");
+	By SelectSexAll = By.id("genderAll");
+	By SelectSexMale = By.id("genderMale");
+	By SelectSexFemale = By.id("genderFemale");
 	
-	public void clickSearchDrugButton(){	
-		//System.out.println("src" + driver.getPageSource());
-		WebElement element= driver.findElement(ButtonSearchDrug);		
-		mouseOver(element);		
-		click(ButtonSearchDrug);
-
-	}
 	//method to verify the landing page
 	public void verifyLandingPage(){	
-
+		
+		waitForElementDisplayed(clickSearchDrugReaction);
+		Assert.assertEquals(isElementPresent(clickSearchDrugReaction), true);
+		WebElement element= driver.findElement(clickSearchDrugReaction);
+		
+		mouseOver(element);
+		
+		click(clickSearchDrugReaction);
+		
 		isTextDisplayed("h5", "Search Drugs by Generic Name");
 		isTextDisplayed("h5", "Search Drugs by Brand Name");	
 				
@@ -48,6 +50,9 @@ public class F18HomePage extends BaseTestUtil {
 	//method to search for a drug name
 	public void enterSearchDrug(String drugName) {
 		waitForElementDisplayed(SearchDrugs);
+		
+		Assert.assertEquals(isElementPresent(SearchDrugs), true);
+		
 		driver.findElement(SearchDrugs).sendKeys(drugName);
 		
 		WebElement element= driver.findElement(ButtonOk);
@@ -78,7 +83,7 @@ public class F18HomePage extends BaseTestUtil {
 	//to choose filters currently "US"
 	public void selectCountryFilters() {
 		waitForElementDisplayed(USCheckBox);
-		
+		Assert.assertEquals(isElementPresent(USCheckBox), true);
 		WebElement element= driver.findElement(USCheckBox);
 		
 		mouseOver(element);
@@ -88,14 +93,17 @@ public class F18HomePage extends BaseTestUtil {
 	
 	//to delete the selected drug
 	public void deleteSelectedDrug() {
-		isElementPresent (SelectedDrug1);
+		waitForElementDisplayed (selectedDrug1);
+		Assert.assertEquals(isElementPresent(selectedDrug1), true);
 		waitForElementDisplayed(Delete1);
 		click(Delete1);
 	}
 	
 	//to get reactions for the drugs, all table values
 	public void getDrugReactions() {
-		getTableValues ("tablePrimary");
+		List<List<String>> reactionValues = getTableValues ("tablePrimary");
+		Assert.assertEquals(isElementPresent(By.id("tablePrimary")), true);
+
 	}
 
 	//to check sex type as all
