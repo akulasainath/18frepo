@@ -7,18 +7,22 @@ import demo.f18.testing.util.TestConfig;
 
 public class F18GetDrugReactionsOutcomeSerious extends TestConfig {
 
-	@Test(priority=0)	
-	public void drugReactionForOutcomeSerious() {
-		F18HomePage homePage = new F18HomePage(driver);		
-		homePage.verifyLandingPage();
-		homePage.enterSearchDrug("Advil");
-		homePage.selectOutcomeSerious();		
+	@Test(priority=0)
+	
+	public void DrugReactionForOutcomeSerious() {
+		F18HomePage drugreactionsoutcomeserious = new F18HomePage(driver);
+		
+		drugreactionsoutcomeserious.verifyLandingPage();
+		drugreactionsoutcomeserious.enterSearchDrug("Advil");
+		drugreactionsoutcomeserious.selectOutcomeSerious();
+		
+		
 		try {
 		    Thread.sleep(1000);                 //1000 milliseconds is one second.
 		} catch(InterruptedException ex) {
 		    Thread.currentThread().interrupt();
 		}
-		homePage.getDrugReactions();
-		homePage.closeBroswer();
+		drugreactionsoutcomeserious.getDrugReactions();
+		drugreactionsoutcomeserious.closeBroswer();
 	}
 }
