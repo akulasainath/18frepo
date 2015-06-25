@@ -38,9 +38,9 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
             //start progress bar.
             $('#progressbar').show();
             //call indi drug search, this will in turn call combination search if success.
-            $scope.selecteddrugs.push($scope.searchForDrug);
             var searchTerm = $scope.normalizeTerm($scope.searchForDrug);
             $scope.indiSearch(searchTerm, true);
+            $scope.selecteddrugs.push($scope.searchForDrug);
         };
         
         $scope.normalizeTerm = function(term) {
@@ -61,11 +61,11 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
             	    }
             	}).error(function(errorResp, response) {
                     //no search term found, remove the term from the list.
-            	    var index = $scope.searchterms.indexOf(searchTerm);
-            	    $scope.searchterms.splice(index, 1);
-            	    
             	    var index = $scope.selecteddrugs.indexOf(searchTerm);
         	    $scope.selecteddrugs.splice(index, 1);
+        	    var index = $scope.searchterms.indexOf(searchTerm);
+            	    $scope.searchterms.splice(index, 1);
+            	    
             	    alert('Error: ' + errorResp.error.message);
             	    $('#progressbar').hide();
                 });
@@ -156,8 +156,19 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
                 $scope.combinedSearch();
             } else {
                 $('#progressbar').hide();
-                //if the drug list is empty clear off the selectedReaction
+                //if the drug list is empty, clear off the values
+                $scope.searchForDrug = '';
+                $scope.selecteddrugs = [];
+                $scope.top10Reactions = [];
+                $scope.indiDrugReactionResults = [];
+                $scope.searchterms = [];
                 $scope.selectedReaction = '';
+                $scope.countryFilter = '';
+                $scope.genderFilter = '';
+                $scope.outcomeFilter = '';
+                $scope.filter = '';
+                $scope.chart.clearChart();
+                $scope.chart='';
             }
         };
 
