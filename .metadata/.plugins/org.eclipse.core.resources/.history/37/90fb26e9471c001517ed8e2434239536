@@ -183,7 +183,7 @@
 				<user.password></user.password>
 				<grid2.hub></grid2.hub>
 				<site.url> http://openfdatest.ventera.com/web</site.url>
-				<browser.name>ghost</browser.name>
+				<browser.name>ff</browser.name>
 				<browser.version></browser.version>
 				<browser.platform></browser.platform>
 			</properties>
