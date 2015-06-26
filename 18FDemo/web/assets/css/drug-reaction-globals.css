@@ -1,0 +1,399 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**********************************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > NOTES: START
+***********************************************************************************************************************/
+
+	/* TOC:
+		- GENERAL CSS SETTINGS
+			- FONTS AND LOGOS EMBEDDING
+		- COLORS
+			
+		- BOOTSTRAP COMPENENT TAILORING
+			- TABLES
+			- BUTTONS
+		- SITE SPECIFIC
+		- DR SCAFFOLDING
+		- HOT FIXES
+	*/
+
+/* NOTES: END
+***********************************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > GENERAL CSS SETTINGS: START
+***********************************************************************************************************************/
+
+html, body {
+	height:100%;
+	width:100%;
+}
+
+body {
+	background-color:#ffffff;
+	background-image:linear-gradient( to bottom, #ededed, #ffffff, #ffffff, #ffffff );
+	
+	background-repeat:no-repeat;	
+	background-repeat:repeat-x;
+}
+
+/* # Text links */ 
+a {
+	color:#2994ff;
+}
+a:hover {
+	color:#01519a;
+}
+
+
+/* # Headers */
+.dr-production-title {
+	color:#01519a;
+}
+.dr-inverted-production-title {
+	color:#ffffff;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+
+h1, h2, h3, h4 {
+	color:rgba(0,0,0,.87);
+}
+
+.dr-bold-text {
+	font-weight:bold !important;
+}
+
+
+
+
+	
+	/**************************************************************************************************************/
+	/*
+	********
+	********
+	********
+	*/
+	/* >> FONTS AND LOGOS EMBEDDING: START
+	***************************************************************************************************************/
+	
+	/* # Ventera logos embed */
+	@font-face {
+	font-family: "ventera-logos";
+		src:url("/demo/assets/fonts/ventera-logos.eot");
+		src:url("/demo/assets/fonts/ventera-logos.eot?#iefix") format("embedded-opentype"),
+		url("/demo/assets/fonts/ventera-logos.woff") format("woff"),
+		url("/demo/assets/fonts/ventera-logos.ttf") format("truetype"),
+		url("/demo/assets/fonts/ventera-logos.svg#ventera-logos") format("svg");
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	/* 	## Base class for Ventera logos */
+		.ventera-logos {
+			font-family: "ventera-logos" !important;
+			
+			position: relative;
+			display: inline-block;
+			  
+			font-style: normal !important;
+			font-weight: normal !important;
+			font-variant: normal !important;
+			text-transform: none !important;
+			
+			speak: none;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			
+			font-size:250px;
+			
+			vertical-align:middle;
+		}
+		
+	/* 	## Modifiers for Ventera logos */
+		.ventera-white-logo {
+			color:#ffffff;
+			text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+		}
+		.ventera-black-logo {
+			color:#000000;
+		}
+		
+		.ventera-translucent-light-logo {
+			color:rgba(255,255,255,.87);
+			text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+		}
+		.ventera-translucent-dark-logo {
+			color:rgba(0,0,0,.60);
+		}
+		
+	/* 	## Character mapping */	
+		.centered-bottom-side-text-ventera-logo:before {
+			content: "a";
+		}
+	
+	
+	/* FONTS AND LOGOS EMBEDDING: END
+	***************************************************************************************************************/
+
+/* GENERAL CSS SETTINGS: END
+***********************************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > COLORS: START
+***********************************************************************************************************************/
+
+/* # Brand colors */
+.dr-brand-primary-background-color {
+	background-color:#01519a;
+}
+.dr-brand-secondary-background-color {
+	background-color:#ff2200;
+}
+
+/*	 ## Bootstrap's BG colors */
+	.bg-primary {
+		color: #fff;
+		background-color: #01519a;
+	}
+	
+	
+	
+/* # Contextual text colors */
+.text-attention {
+	color:#ff2200;
+}
+.text-primary {
+	color:#01519a;
+}
+.text-muted {
+	color:#808080;
+}
+
+
+/* COLORS: END
+***********************************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > BOOTSTRAP COMPENENT TAILORING: START
+***********************************************************************************************************************/
+
+	/**************************************************************************************************************/
+	/*
+	********
+	********
+	********
+	*/
+	/* >> TABLES: START
+	***************************************************************************************************************/
+	
+	/* # Table modifiers */
+	.dr-table-header-on-state {
+		background-color:#01519a;
+		color:#ffffff;
+	}
+		.dr-table-header-on-state > a,
+		.dr-table-header-on-state > span,
+		.dr-table-header-on-state > a > span, 
+		.dr-table-header-on-state > span > a, 
+		.dr-table-header-on-state * {
+			color:#ffffff;
+		}
+	
+	th[scope="row"] {
+		font-weight:normal;
+	}
+	
+	thead th {
+		background-color:#e5e5e5;
+		border-color:rgba(0,0,0,.13) !important;
+	}
+	
+	
+	/* TABLES: END
+	***************************************************************************************************************/
+	/*
+	********
+	********
+	********
+	*/
+	/* >> BUTTONS: START
+	***************************************************************************************************************/
+	
+	/* # Contextual button variants */
+	.btn-primary {
+		background-image: -webkit-linear-gradient(top, #337ab7 0%, #01519a 100%);
+		background-image: -o-linear-gradient(top, #337ab7 0%, #01519a 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#01519a));
+		background-image: linear-gradient(to bottom, #337ab7 0%, #01519a 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff01519a', GradientType=0);
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+		background-repeat: repeat-x;
+	
+		border-color:rgba(0,0,0,.25);
+		
+		border-bottom-color:rgba(0,0,0,.67);
+	}
+	.btn-attention {
+		background-image: -webkit-linear-gradient(top, #ff6600 0%, #ff2200 100%);
+		background-image: -o-linear-gradient(top, #ff6600 0%, #ff2200 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ff6600), to(#ff2200));
+		background-image: linear-gradient(to bottom, #ff6600 0%, #ff2200 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ffff2200', GradientType=0);
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+		background-repeat: repeat-x;
+	
+		border-color:#da1600;
+		
+		border-top-color:#da1600;
+		border-bottom-color:rgba(0,0,0,.67);
+		
+		color:#ffffff;
+	}
+	.btn-attention:hover {
+		color:#ffffff;
+	}
+
+	/* BUTTONS: END
+	***************************************************************************************************************/
+
+/* BOOTSTRAP COMPENENT TAILORING: END
+***********************************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > SITE SPECIFIC: START
+***********************************************************************************************************************/
+
+/* # Ventera logo for landing page */
+.landing-page-ventera-logo {
+	padding: 0;
+	margin: 0;
+	line-height: 24px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-size: 225px;
+}
+
+/* # Heading for landing page */
+.drug-reaction-global h1.landing-page-h1 {
+	margin-top:0;
+	font-size:42px;
+}
+
+@media (max-width: 768px) {
+	.drug-reaction-global h1.landing-page-h1 {
+		margin-top:0;
+		font-size:34px;
+	}
+}
+
+/* # Landing page graphic */
+#landing-page-graphic-id {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+@media (max-width: 768px) {
+	#landing-page-graphic-id {
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+}
+
+
+/* SITE SPECIFIC: END
+***********************************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > DR SCAFFOLDING: START
+***********************************************************************************************************************/
+
+.dr-fat-stroke {
+	border-style:solid;
+	border-width:30px;
+	border-color:rgba(0,0,0,.07);
+	padding:0;
+	margin:0;
+	
+	background-clip:padding-box;
+	background-color:rgba(0,0,0,.07);
+}
+
+.dr-pin-stroke {
+	border-style: solid;
+	border-width:1px;
+	border-color: rgba(0,0,0,.2);
+	padding:15px;
+	margin:0;
+	
+	background-color:#ffffff;
+}
+
+
+
+
+  
+
+/* DR SCAFFOLDING: END
+***********************************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > HOT FIXES: START
+***********************************************************************************************************************/
+
+
+@media (min-width: 768px) {
+	.navbar-brand {
+		display:none;
+	}
+}
+/* HOT FIXES: END
+***********************************************************************************************************************/
+
+
+
+.progressbar {
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	display:none;
+	background: rgba(0,0,0,.15);
+	height: 100%;
+	width: 100%;
+	padding-top:25%;
+	text-align: center;
+}
+
+.imgRotate {
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+}
+

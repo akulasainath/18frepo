@@ -9,11 +9,13 @@ public class F18EnterDrug extends TestConfig {
 
 	@Test(priority=0)
 	public void enterDrugDetails () throws Exception {
-		F18HomePage homePage = new F18HomePage(driver);
-		homePage.verifyLandingPage();
-		homePage.enterSearchDrugFromExcelFile(System.getProperty("user.dir")+"\\src\\main\\resources\\testData\\DrugDetails.xls");
-		homePage.closeBroswer();
-	}	
+		F18HomePage enterdrugdetails = new F18HomePage(driver);		
+
+		enterdrugdetails.verifyLandingPage();
+		enterdrugdetails.enterSearchDrugFromExcelFile(System.getProperty("user.dir")+"\\src\\main\\resources\\testData\\DrugDetails.xls");
+		enterdrugdetails.closeBroswer();
+	}
+	
 	
 }
  

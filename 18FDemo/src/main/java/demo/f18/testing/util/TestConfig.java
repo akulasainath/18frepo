@@ -14,6 +14,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.ScreenshotException;
@@ -127,7 +129,7 @@ public class TestConfig extends TestListenerAdapter implements ITestListener{
 			this.driver = new InternetExplorerDriver(capability);
 
 		} else if (targetBrowser.contains("safari")) { // Safari browser settins
-			System.setProperty("webdriver.safari.driver",System.getProperty("user.dir")+"\\src\\main\\resources\\SafariDriver.safariextz");
+			System.setProperty("webdriver.safari.driver", System.getProperty("user.dir")+"\\src\\main\\resources\\SafariDriver.safariextz");
 			// driver = new SafariDriver();
 			SafariDriver profile = new SafariDriver();
 			capability = DesiredCapabilities.safari();
@@ -135,8 +137,13 @@ public class TestConfig extends TestListenerAdapter implements ITestListener{
 			capability.setBrowserName("safari");
 			//capability.setCapability(SafariDriver.CLEAN_SESSION_CAPABILITY, profile);
 			this.driver = new SafariDriver(capability);
+		} else if (targetBrowser.contains("ghost")) { // Gosht driver browser settins					
+			capability = DesiredCapabilities.phantomjs();
+			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir")+"\\src\\main\\resources\\ghostDriver\\phantomjs.exe");
+			capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "//usr//bin//phantomjs");
+			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir")+"//src//main//resources//ghostDriver//phantomjs.exe");
+			this.driver = new PhantomJSDriver(capability);
 		}
-
 		/*System.out.println("Remote Grid : " + remote_grid );
 			// Instantiate RemoteWebDriver
 
