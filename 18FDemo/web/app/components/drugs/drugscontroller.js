@@ -124,9 +124,7 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
                     if(graphReactionExists) {
                 	$scope.drawChart(reactionIdxMain, $scope.selectedReaction);
                     } else if($scope.selectedReaction !== ''){
-            	    	$("#chartDivMessage").html("Chart is no longer valid for your selected Reaction. Please choose a different Reaction. <br/> <br/>");
-            	    	$("#chartDivMessage").show();
-            	    	$("#chartDiv").hide();
+            	    	$("#chartDiv").html("Chart is no longer valid for your selected Reaction. Please choose a different Reaction. <br/> <br/>");
             	    } else {
                 	$("#chartDiv").hide();
                     }
@@ -241,10 +239,10 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
          * Method to generate chart when user clicks graph icon on a reaction.
          */
         $scope.drawChart = function(idx, term) {
+            $('#progressbar').show();
             if($scope.chart) {
     	    	$scope.chart.clearChart();
             }
-            $("#chartDivMessage").hide();
             $scope.drugCounts = [];
             $scope.idx = idx;
             $("#chartDiv").show();
@@ -258,6 +256,8 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
                 	if(index === $scope.selecteddrugs.length-1){
                 	    $scope.generateChart(idx, term);
                 	}
+                }).error(function(jsonResp){
+                    $('#progressbar').hide();
                 });
             });
         };
@@ -292,6 +292,7 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
                 },
                 backgroundColor: { fill:'transparent' }
             });
+            $('#progressbar').hide();
         }
         
         $scope.capitalize = function(term) {
