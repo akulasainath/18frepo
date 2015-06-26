@@ -268,8 +268,8 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
         $scope.generateChart = function(idx, selectedReaction) {
             var data3 = new google.visualization.DataTable();
             data3.addColumn('string','Drugs');
-            data3.addColumn('number', ' Reactions for ' + selectedReaction);
-            data3.addColumn('number','Overall Reactions for Drug');
+            data3.addColumn('number', selectedReaction + ' Reports');
+            data3.addColumn('number','All Adverse Events');
             
             //do individual drug search to get count for each drug.
             $($scope.selecteddrugs).each(function(index) {

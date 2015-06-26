@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html data-ng-app="openFDAApp">
+<html data-ng-app="openFDAApp" lang="en">
 	<head>
 		<title>Drug Reaction Research Report</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- JQuery JS -->
 		<script src="/demo/assets/libs/jquery-2.1.1/jquery-2.1.1.min.js"></script>
@@ -32,12 +33,11 @@
 		<script src="/demo/assets/js/utils.js"></script>
 		
 		<!-- Application CSS files -->
-		<link rel="stylesheet" type="text/css" href="/demo/assets/css/app.css"></link>
+		<link rel="stylesheet" type="text/css" href="/demo/assets/css/drug-reaction-globals.css"></link>
 	</head>
 	
 	<body data-ng-cloak>
-		<!-- -->
-		<div id="progressbar" class="progressbar"><img src="/demo/assets/img/spinner.gif"/></div>
-		<div data-ng-view></div>
+		<div id="progressbar" class="progressbar"><img src="/demo/assets/img/spinner.gif" alt="loading..."/></div>
+		<data-ng-view></data-ng-view>
 	</body>
 </html>
