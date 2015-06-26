@@ -88,11 +88,11 @@ h1, h2, h3, h4 {
 	/* # Ventera logos embed */
 	@font-face {
 	font-family: "ventera-logos";
-		src:url("/demo/assets/fonts/ventera-logos.eot");
-		src:url("/demo/assets/fonts/ventera-logos.eot?#iefix") format("embedded-opentype"),
-		url("/demo/assets/fonts/ventera-logos.woff") format("woff"),
-		url("/demo/assets/fonts/ventera-logos.ttf") format("truetype"),
-		url("/demo/assets/fonts/ventera-logos.svg#ventera-logos") format("svg");
+		src:url("/web/assets/fonts/ventera-logos.eot");
+		src:url("/web/assets/fonts/ventera-logos.eot?#iefix") format("embedded-opentype"),
+		url("/web/assets/fonts/ventera-logos.woff") format("woff"),
+		url("/web/assets/fonts/ventera-logos.ttf") format("truetype"),
+		url("/web/assets/fonts/ventera-logos.svg#ventera-logos") format("svg");
 		font-weight: normal;
 		font-style: normal;
 	}
