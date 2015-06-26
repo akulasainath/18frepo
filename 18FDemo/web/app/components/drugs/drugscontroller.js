@@ -165,7 +165,7 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
                 $scope.indiDrugReactionResults = [];
                 $scope.searchterms = [];
                 $scope.selectedReaction = '';
-                $scope.countryFilter = '';
+                $scope.countryFilter = 'US';
                 $scope.genderFilter = '';
                 $scope.outcomeFilter = '';
                 $scope.filter = '';
