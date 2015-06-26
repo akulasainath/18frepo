@@ -16,7 +16,7 @@ public class F18HomePage extends BaseTestUtil {
 		super(driver);
 	
 	}
-	By clickSearchDrugReaction = By.xpath("html/body/div[2]/div/div/div[4]/div/a/button");
+	By clickSearchDrugReaction = By.xpath("html/body/data-ng-view/div/div/div/div/div/div[2]/div/div/div[3]/div/a/button");
 	By SearchDrugs= By.id("suggestGeneric");
 	By ButtonOk = By.id("addDrug");
 	By USCheckBox = By.id("countryUS");

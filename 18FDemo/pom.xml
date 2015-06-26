@@ -182,8 +182,8 @@
 				<user.username></user.username>
 				<user.password></user.password>
 				<grid2.hub></grid2.hub>
-				<site.url>http://openfda.ventera.com/demo/#/</site.url>
-				<browser.name>ghost</browser.name>
+				<site.url> http://openfdatest.ventera.com/web</site.url>
+				<browser.name>ff</browser.name>
 				<browser.version></browser.version>
 				<browser.platform></browser.platform>
 			</properties>
