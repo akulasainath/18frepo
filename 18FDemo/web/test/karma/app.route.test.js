@@ -9,7 +9,7 @@ it('should test routeProvider', function() {
 
 		expect($location.path()).toBe('/drugs/');
 		expect($route.current.templateUrl).toEqual(
-				'/demo/app/components/drugs/drugs.html');
+				'/web/app/components/drugs/drugs.html');
 		expect($route.current.controller).toBe(DrugsController);
 
 	}));

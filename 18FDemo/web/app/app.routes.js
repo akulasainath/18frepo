@@ -2,9 +2,9 @@
 
 openFDAApp.config(function($routeProvider) {
 	$routeProvider.when('/', {
-		templateUrl : '/demo/home.html'
+		templateUrl : '/web/home.html'
 	}).when('/drugs/', {
-		templateUrl : '/demo/app/components/drugs/drugs.html',
+		templateUrl : '/web/app/components/drugs/drugs.html',
 		controller : 'DrugsController'
 	});
 });
