@@ -290,6 +290,10 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
                 tooltip: {
                     trigger: 'both'
                 },
+                hAxis: {
+                    title: 'Adverse Events',
+                    titleTextStyle: {bold: true, fontSize: 16}
+                },
                 backgroundColor: { fill:'transparent' }
             });
             $('#progressbar').hide();
