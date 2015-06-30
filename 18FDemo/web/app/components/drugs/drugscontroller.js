@@ -4,8 +4,8 @@ google.load("visualization", "1", {
     packages : [ "corechart" ]
 });
 
-angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '$location',
-    function($scope, $http, $location) {
+angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '$location', '$q',
+    function($scope, $http, $location, $q) {
     
     	//general scope attributes
         $scope.searchForDrug = '';
@@ -118,17 +118,17 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
                        }
                     });
                     $scope.finalstorage[index] = finalItems;
-                    
-                    //generate the chart for the newly selected drug, only if the graph was generated for previous any drugs.
-                    
-                    if(graphReactionExists) {
-                	$scope.drawChart(reactionIdxMain, $scope.selectedReaction);
-                    } else if($scope.selectedReaction !== ''){
-            	    	$("#chartDiv").html("Chart is no longer valid for your selected Reaction. Please choose a different Reaction. <br/> <br/>");
-            	    } else {
-                	$("#chartDiv").hide();
-                    }
                 });
+                
+                //generate the chart for the newly selected drug, only if the graph was generated for previous any drugs.
+                if(graphReactionExists) {
+                    $scope.drawChart(reactionIdxMain, $scope.selectedReaction);
+                } else if($scope.selectedReaction !== ''){
+                    $("#chartDiv").html("Chart is no longer valid for your selected Reaction. Please choose a different Reaction. <br/> <br/>");
+                } else {
+                    $("#chartDiv").hide();
+                }
+                
                 $scope.searchForDrug = '';
                 $('#progressbar').hide();
             }).error(function(errorResp) {
@@ -242,19 +242,19 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
             $scope.drugCounts = [];
             $scope.idx = idx;
             $("#chartDiv").show();
+            var promises = [];
+            var defer = $q.defer();
             $($scope.selecteddrugs).each(function(index){
-        	var searchTerm = $scope.normalizeTerm($scope.selecteddrugs[index]);	
-        	$http.get(BASE_URL+'search=('+GENERIC_NAME+searchTerm+'+'+BRAND_NAME+searchTerm+')'+$scope.filter, { cache: true}).success(function(jsonResp) {
-                	$scope.selectedReaction = term;
-                	var totalCount = jsonResp.meta.results.total;
-                	$scope.drugCounts[index] = totalCount;
-                	//wait till the last call was executed, then call generate chart.
-                	if(index === $scope.selecteddrugs.length-1){
-                	    $scope.generateChart(idx, term);
-                	}
-                }).error(function(jsonResp){
-                    $('#progressbar').hide();
-                });
+        	var searchTerm = $scope.normalizeTerm($scope.selecteddrugs[index]);
+        	promises.push($http.get('https://api.fda.gov/drug/event.json?search=(patient.drug.openfda.generic_name:'+searchTerm+'+patient.drug.openfda.brand_name:'+searchTerm+')'+$scope.filter));
+            });
+            $q.all(promises).then(function(jsonResp){
+        	$scope.selectedReaction = term
+        	$($scope.selecteddrugs).each(function(index){
+        	    $scope.drugCounts[index] = jsonResp[index].data.meta.results.total;
+        	});
+        	defer.resolve();
+        	$scope.generateChart(idx, term);
             });
         };
         
