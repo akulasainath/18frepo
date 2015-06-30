@@ -14,9 +14,9 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
         $scope.indiDrugReactionResults = [];
         $scope.searchterms = [];
         $scope.selectedReaction = '';
+        $scope.chartColors = ['#D2FF54', '#FFD154', '#FF54D2', '#D154FF', '#54D2FF'];
         
         //filters
-        $scope.countryFilter = 'US';
         $scope.genderFilter = '';
         $scope.outcomeFilter = '';
         $scope.filter = '';
@@ -165,7 +165,6 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
                 $scope.indiDrugReactionResults = [];
                 $scope.searchterms = [];
                 $scope.selectedReaction = '';
-                $scope.countryFilter = 'US';
                 $scope.genderFilter = '';
                 $scope.outcomeFilter = '';
                 $scope.filter = '';
@@ -203,9 +202,6 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
          */
         $scope.setFilters = function() {
             $scope.filter='';
-            if($scope.countryFilter) {
-        	$scope.filter += '+AND+occurcountry:'+$scope.countryFilter;
-            }
             if($scope.genderFilter) {
         	$scope.filter += '+AND+patient.patientsex:'+$scope.genderFilter;
             }
@@ -269,24 +265,26 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
             var data3 = new google.visualization.DataTable();
             data3.addColumn('string','Drugs');
             data3.addColumn('number', selectedReaction + ' Reports');
+            data3.addColumn({type:'string', role:'style'});
             data3.addColumn('number','All Adverse Events');
-            
+            data3.addColumn({type:'string', role:'style'});
             //do individual drug search to get count for each drug.
             $($scope.selecteddrugs).each(function(index) {
                 var name = $scope.capitalize($scope.selecteddrugs[index]);
-        	data3.addRows([[name, Number($scope.finalstorage[index][idx]), Number($scope.drugCounts[index])]]);
+        	data3.addRow([name, Number($scope.finalstorage[index][idx]), 'color:' + $scope.chartColors[index] + ';stroke-color: #01519a; stroke-width: 2; stroke-opacity: 1;', Number($scope.drugCounts[index]), 'color:#01519A']);
             });
             
             var formatter = new google.visualization.NumberFormat({fractionDigits: 0});
             formatter.format(data3, 1);
-            formatter.format(data3, 2);
+            formatter.format(data3, 3);
             
             $scope.chart = new google.visualization.BarChart(document.getElementById('chartDiv'));
+            
+            
             $scope.chart.draw(data3, {
         	title: 'Reaction: ' + selectedReaction,
                 isStacked: 'percent',
                 legend: {position: 'none'},
-                colors: ['#5bc0de','#428bca'],
                 tooltip: {
                     trigger: 'both'
                 },
@@ -296,6 +294,8 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
                 },
                 backgroundColor: { fill:'transparent' }
             });
+            
+            
             $('#progressbar').hide();
         }
         
