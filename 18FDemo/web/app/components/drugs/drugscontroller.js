@@ -304,8 +304,9 @@ angular.module('openFDAApp').controller('DrugsController', ['$scope', '$http', '
         }
         
         //when the window resizes, redraw the chart to make it responsive.
+        var width = $(window).width();
         $(window).resize(function (event) {
-            if($scope.selectedReaction) {
+            if($scope.selectedReaction && ($(window).width() != width)) { 
         	$scope.drawChart($scope.idx,  $scope.selectedReaction);
             }
         });
