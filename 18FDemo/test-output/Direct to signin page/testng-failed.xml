@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [Direct to signin page]" parallel="tests">
+  <test name="Test F18 landing page(failed)" parallel="tests">
+    <classes>
+      <class name="demo.f18.testsuite.F18LandingPageTest">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="testLandingPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- demo.f18.testsuite.F18LandingPageTest -->
+    </classes>
+  </test> <!-- Test F18 landing page(failed) -->
+</suite> <!-- Failed suite [Direct to signin page] -->

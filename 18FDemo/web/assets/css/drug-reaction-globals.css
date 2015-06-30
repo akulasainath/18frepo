@@ -73,6 +73,10 @@ h1, h2, h3, h4 {
 }
 
 
+th {
+	color:#000000;
+}
+
 
 
 	
@@ -282,6 +286,116 @@ h1, h2, h3, h4 {
 /* > SITE SPECIFIC: START
 ***********************************************************************************************************************/
 
+
+/* # How-to text */
+.dr-how-to-text {
+	width:80%;
+	margin:auto;
+	
+	margin-top:45px;
+	
+	padding:0;
+	
+	padding-left:30px;
+	padding-right:30px;
+	
+}
+
+	.dr-how-to-text-heading {
+		font-weight:bold;
+		opacity:.64;
+		
+		margin:0;
+		padding:0;
+		
+		
+		font-size:36px;
+		
+	}
+	
+	.dr-how-to-text-list {
+		list-style-type:none;
+		position:relative;
+		
+		list-style-position:inside;
+		
+		padding-left:80px;
+	}
+		.dr-how-to-text-list > li {
+			margin:0;
+			padding:0;
+			
+			font-size:24px;
+			
+			line-height:120%;
+			
+			margin-top:36px;
+			
+			position:relative;
+		}
+	
+			.dr-how-to-text-list-item-text {
+				font-weight:bold;
+				opacity:.64;
+				
+				margin:0;
+				padding:0;
+				
+				
+				
+			}
+			
+			.dr-how-to-text-list-number {
+				position:absolute;
+				left:-80px;;
+				top:-10px;
+				
+				font-weight:bold;
+				
+				opacity:.64;
+				
+				
+				width:50px;
+				height:50px;
+				
+				padding-right:30px;
+				
+				background-image: linear-gradient( to bottom, rgba(0,0,0,.07), rgba(0,0,0,.07) );
+				border-radius: 50%;
+				
+				border-style:solid;
+				border-width:1px;
+				
+				border-color:rgba(0,0,0,.14);
+				
+				padding-top:10px;
+				padding-left:15px;
+			}
+
+@media (max-width: 768px) {
+	.dr-how-to-text {
+		width:100%;
+		
+		margin-top: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.dr-how-to-text-heading {
+		font-size: 24px;
+	}
+	
+	.dr-how-to-text-list > li {
+		font-size: 18px;
+	}
+	
+	.dr-how-to-text-list-number {
+		padding-top:15px;
+		padding-left:20px;
+	}
+}
+
+
 /* # Ventera logo for landing page */
 .landing-page-ventera-logo {
 	padding: 0;
@@ -374,8 +488,6 @@ h1, h2, h3, h4 {
 /* HOT FIXES: END
 ***********************************************************************************************************************/
 
-
-
 .progressbar {
 	position:fixed;
 	top: 0;
@@ -388,12 +500,3 @@ h1, h2, h3, h4 {
 	padding-top:25%;
 	text-align: center;
 }
-
-.imgRotate {
-	transform:rotate(90deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
-	-moz-transform:rotate(90deg); /* Firefox */
-	-webkit-transform:rotate(90deg); /* Safari and Chrome */
-	-o-transform:rotate(90deg); /* Opera */
-}
-

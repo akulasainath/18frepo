@@ -3,20 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="demo.f18.testsuite.EndtoEnd">
+      <class name="demo.f18.testsuite.F18GetDrugReactionsFemale">
         <methods>
-          <include name="enterDrugDetails"/>
-          <include name="DrugReactionForOutcomeSerious"/>
-          <include name="DrugReactionForMale"/>
           <include name="fetchSuiteConfiguration"/>
-          <include name="DrugReactionsInUS"/>
-          <include name="testLandingPage"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="DrugReactionsAll"/>
           <include name="DrugReactionsForFemale"/>
         </methods>
-      </class> <!-- demo.f18.testsuite.EndtoEnd -->
+      </class> <!-- demo.f18.testsuite.F18GetDrugReactionsFemale -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="demo.f18.testsuite.F18LandingPageTest"/>
+      <class name="demo.f18.testsuite.F18GetDrugReactionsAll"/>
+      <class name="demo.f18.testsuite.F18GetDrugReactionsOutcomeSerious"/>
+      <class name="demo.f18.testsuite.EndtoEnd"/>
+      <class name="demo.f18.testsuite.F18DeleteDrugs"/>
+      <class name="demo.f18.testsuite.F18GetDrugReactionsCountryUS"/>
+      <class name="demo.f18.testsuite.F18GetDrugReactionsMale"/>
+      <class name="demo.f18.testsuite.F18GetDrugReactionsFemale"/>
+      <class name="demo.f18.testsuite.F18EnterDrug"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

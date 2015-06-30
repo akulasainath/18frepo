@@ -13,7 +13,7 @@ public class F18LandingPageTest extends TestConfig {
 		F18HomePage landingPage= new F18HomePage(driver);		
 		log("Verify the [Title] of the page", FrameworkConstants.ASSERTS);
 		fail("Title Verified",	landingPage.getWebDriver().getTitle(),	"Drug Reaction Research Report");	
-		fail("Current Url Verified",landingPage.getWebDriver().getCurrentUrl(), "http://openfda.ventera.com/demo/#/");
+		fail("Current Url Verified",landingPage.getWebDriver().getCurrentUrl(), "http://openfdatest.ventera.com/web/#/");
 		log("Verify Text on the Page", FrameworkConstants.TEST);
 		landingPage.verifyLandingPage();
 		landingPage.closeBroswer();
