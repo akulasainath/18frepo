@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="10" name="Failed suite [Drug Details]" parallel="tests">
-  <test name="Test Get Drug Reactions by country US(failed)" parallel="tests">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="demo.f18.testsuite.F18GetDrugReactionsCountryUS">
+      <class name="demo.f18.testsuite.F18EnterDrug">
         <methods>
           <include name="fetchSuiteConfiguration"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="DrugReactionsInUS"/>
+          <include name="enterDrugDetails"/>
         </methods>
-      </class> <!-- demo.f18.testsuite.F18GetDrugReactionsCountryUS -->
+      </class> <!-- demo.f18.testsuite.F18EnterDrug -->
     </classes>
-  </test> <!-- Test Get Drug Reactions by country US(failed) -->
-</suite> <!-- Failed suite [Drug Details] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
