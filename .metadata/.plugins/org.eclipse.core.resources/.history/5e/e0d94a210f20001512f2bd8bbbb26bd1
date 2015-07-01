@@ -141,8 +141,8 @@ public class TestConfig extends TestListenerAdapter implements ITestListener{
 			capability = DesiredCapabilities.phantomjs();
 	        // This line is for Windows.  	
 			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir")+"\\src\\main\\resources\\ghostDriver\\phantomjs.exe");
-			//This line is for Unix 
-			capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "//usr//bin//phantomjs");
+			This line is for Unix 
+			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "//usr//bin//phantomjs");
 			
 			this.driver = new PhantomJSDriver(capability);
 		}
