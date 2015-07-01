@@ -140,9 +140,9 @@ public class TestConfig extends TestListenerAdapter implements ITestListener{
 		} else if (targetBrowser.contains("ghost")) { // Gosht driver browser setting for Windows					
 			capability = DesiredCapabilities.phantomjs();
 	        // This line is for Windows.  	
-			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir")+"\\src\\main\\resources\\ghostDriver\\phantomjs.exe");
+			capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir")+"\\src\\main\\resources\\ghostDriver\\phantomjs.exe");
 			//This line is for Unix 1
-			capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "/home/rharvey/phantomjs-ubuntu");
+			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "//usr//bin//phantomjs");
 			
 			this.driver = new PhantomJSDriver(capability);
 		}
