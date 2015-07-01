@@ -396,3 +396,101 @@
 [TestNG] DEBUG  -  Name of current test : DrugReactionsForFemale
 [TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
 [TestNG] DEBUG  -  Name of current test : DrugReactionForMale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : testLandingPage
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : enterDrugDetails
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsAll
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsInUS
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DeleteDrug
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsForFemale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionForMale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : testLandingPage
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : enterDrugDetails
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsAll
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsInUS
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DeleteDrug
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsForFemale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionForMale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : testLandingPage
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : enterDrugDetails
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsAll
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsInUS
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DeleteDrug
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsForFemale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ffOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionForMale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : testLandingPage
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : enterDrugDetails
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsAll
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsInUS
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DeleteDrug
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsForFemale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionForMale
+[main] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[main] DEBUG  -  Name of current test : DrugReactionForOutcomeSerious
+[main] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[main] DEBUG  -  Name of current test : DrugReactionsInUS
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : testLandingPage
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : enterDrugDetails
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsAll
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsInUS
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DeleteDrug
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsForFemale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionForMale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : testLandingPage
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : enterDrugDetails
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsAll
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DeleteDrug
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsForFemale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionForMale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : testLandingPage
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : enterDrugDetails
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsAll
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DeleteDrug
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionsForFemale
+[TestNG] DEBUG  - Website Url : http://openfdatest.ventera.com/web/#/Selenium Hub : Target Browser : ghostOS Version : 32bit
+[TestNG] DEBUG  -  Name of current test : DrugReactionForMale

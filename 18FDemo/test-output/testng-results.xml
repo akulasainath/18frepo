@@ -17,23 +17,23 @@
       <![CDATA[Screenshot path:C:\development\workspace_03\18FDemo\target\screenshots\DrugReactionsInUS on [F18GetDrugReactionsCountryUS passed=0 failed=0 skipped=0].png]]>
     </line>
   </reporter-output>
-  <suite name="Drug Details" duration-ms="53169" started-at="2015-07-01T15:34:55Z" finished-at="2015-07-01T15:35:48Z">
+  <suite name="Drug Details" duration-ms="52346" started-at="2015-07-01T17:32:55Z" finished-at="2015-07-01T17:33:48Z">
     <groups>
     </groups>
-    <test name="Test Get Drug Reactions by country US" duration-ms="53169" started-at="2015-07-01T15:34:55Z" finished-at="2015-07-01T15:35:48Z">
+    <test name="Test Get Drug Reactions by country US" duration-ms="52346" started-at="2015-07-01T17:32:55Z" finished-at="2015-07-01T17:33:48Z">
       <class name="demo.f18.testsuite.F18GetDrugReactionsCountryUS">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18GetDrugReactionsCountryUS passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="3" started-at="2015-07-01T11:34:55Z" finished-at="2015-07-01T11:34:55Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18GetDrugReactionsCountryUS passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="2" started-at="2015-07-01T13:32:55Z" finished-at="2015-07-01T13:32:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3d10689c]]>
+                <![CDATA[org.testng.TestRunner@13d64832]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18GetDrugReactionsCountryUS passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="6419" started-at="2015-07-01T11:34:55Z" finished-at="2015-07-01T11:35:01Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18GetDrugReactionsCountryUS passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5351" started-at="2015-07-01T13:32:55Z" finished-at="2015-07-01T13:33:01Z">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="DrugReactionsInUS()[pri:0, instance:[F18GetDrugReactionsCountryUS passed=0 failed=0 skipped=0]]" name="DrugReactionsInUS" duration-ms="46530" started-at="2015-07-01T11:35:01Z" finished-at="2015-07-01T11:35:48Z">
+        <test-method status="FAIL" signature="DrugReactionsInUS()[pri:0, instance:[F18GetDrugReactionsCountryUS passed=0 failed=0 skipped=0]]" name="DrugReactionsInUS" duration-ms="46784" started-at="2015-07-01T13:33:01Z" finished-at="2015-07-01T13:33:47Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -87,7 +87,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DrugReactionsInUS -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18GetDrugReactionsCountryUS passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="211" started-at="2015-07-01T11:35:48Z" finished-at="2015-07-01T11:35:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18GetDrugReactionsCountryUS passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="206" started-at="2015-07-01T13:33:47Z" finished-at="2015-07-01T13:33:48Z">
           <params>
             <param index="0">
               <value>
@@ -101,23 +101,23 @@
       </class> <!-- demo.f18.testsuite.F18GetDrugReactionsCountryUS -->
     </test> <!-- Test Get Drug Reactions by country US -->
   </suite> <!-- Drug Details -->
-  <suite name="Direct to signin page" duration-ms="8474" started-at="2015-07-01T15:34:19Z" finished-at="2015-07-01T15:34:27Z">
+  <suite name="Direct to signin page" duration-ms="9094" started-at="2015-07-01T17:32:18Z" finished-at="2015-07-01T17:32:27Z">
     <groups>
     </groups>
-    <test name="Test F18 landing page" duration-ms="8474" started-at="2015-07-01T15:34:19Z" finished-at="2015-07-01T15:34:27Z">
+    <test name="Test F18 landing page" duration-ms="9094" started-at="2015-07-01T17:32:18Z" finished-at="2015-07-01T17:32:27Z">
       <class name="demo.f18.testsuite.F18LandingPageTest">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18LandingPageTest passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="13" started-at="2015-07-01T11:34:19Z" finished-at="2015-07-01T11:34:19Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18LandingPageTest passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="17" started-at="2015-07-01T13:32:18Z" finished-at="2015-07-01T13:32:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@574ec926]]>
+                <![CDATA[org.testng.TestRunner@2ec18e14]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18LandingPageTest passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5757" started-at="2015-07-01T11:34:19Z" finished-at="2015-07-01T11:34:25Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18LandingPageTest passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="6246" started-at="2015-07-01T13:32:18Z" finished-at="2015-07-01T13:32:24Z">
           <params>
             <param index="0">
               <value>
@@ -128,7 +128,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLandingPage()[pri:0, instance:[F18LandingPageTest passed=0 failed=0 skipped=0]]" name="testLandingPage" duration-ms="2685" started-at="2015-07-01T11:34:25Z" finished-at="2015-07-01T11:34:27Z">
+        <test-method status="PASS" signature="testLandingPage()[pri:0, instance:[F18LandingPageTest passed=0 failed=0 skipped=0]]" name="testLandingPage" duration-ms="2817" started-at="2015-07-01T13:32:24Z" finished-at="2015-07-01T13:32:27Z">
           <reporter-output>
             <line>
               <![CDATA[<br/><b>&nbsp;CHECKPOINT: <font color='Green'>Verify the [Title] of the page|</font></b>]]>
@@ -144,7 +144,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testLandingPage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18LandingPageTest passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-07-01T11:34:27Z" finished-at="2015-07-01T11:34:27Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18LandingPageTest passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-01T13:32:27Z" finished-at="2015-07-01T13:32:27Z">
           <params>
             <param index="0">
               <value>
@@ -158,23 +158,23 @@
       </class> <!-- demo.f18.testsuite.F18LandingPageTest -->
     </test> <!-- Test F18 landing page -->
   </suite> <!-- Direct to signin page -->
-  <suite name="Female Reactions" duration-ms="12987" started-at="2015-07-01T15:36:01Z" finished-at="2015-07-01T15:36:14Z">
+  <suite name="Female Reactions" duration-ms="13101" started-at="2015-07-01T17:34:00Z" finished-at="2015-07-01T17:34:13Z">
     <groups>
     </groups>
-    <test name="Test delete drugs" duration-ms="12987" started-at="2015-07-01T15:36:01Z" finished-at="2015-07-01T15:36:14Z">
+    <test name="Test delete drugs" duration-ms="13101" started-at="2015-07-01T17:34:00Z" finished-at="2015-07-01T17:34:13Z">
       <class name="demo.f18.testsuite.F18GetDrugReactionsFemale">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18GetDrugReactionsFemale passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="2" started-at="2015-07-01T11:36:01Z" finished-at="2015-07-01T11:36:01Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18GetDrugReactionsFemale passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-07-01T13:34:00Z" finished-at="2015-07-01T13:34:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6e96137c]]>
+                <![CDATA[org.testng.TestRunner@2556db07]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18GetDrugReactionsFemale passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5174" started-at="2015-07-01T11:36:01Z" finished-at="2015-07-01T11:36:06Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18GetDrugReactionsFemale passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5259" started-at="2015-07-01T13:34:00Z" finished-at="2015-07-01T13:34:06Z">
           <params>
             <param index="0">
               <value>
@@ -185,11 +185,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DrugReactionsForFemale()[pri:0, instance:[F18GetDrugReactionsFemale passed=0 failed=0 skipped=0]]" name="DrugReactionsForFemale" duration-ms="7807" started-at="2015-07-01T11:36:06Z" finished-at="2015-07-01T11:36:14Z">
+        <test-method status="PASS" signature="DrugReactionsForFemale()[pri:0, instance:[F18GetDrugReactionsFemale passed=0 failed=0 skipped=0]]" name="DrugReactionsForFemale" duration-ms="7836" started-at="2015-07-01T13:34:06Z" finished-at="2015-07-01T13:34:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DrugReactionsForFemale -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18GetDrugReactionsFemale passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-01T11:36:14Z" finished-at="2015-07-01T11:36:14Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18GetDrugReactionsFemale passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-01T13:34:13Z" finished-at="2015-07-01T13:34:13Z">
           <params>
             <param index="0">
               <value>
@@ -203,23 +203,23 @@
       </class> <!-- demo.f18.testsuite.F18GetDrugReactionsFemale -->
     </test> <!-- Test delete drugs -->
   </suite> <!-- Female Reactions -->
-  <suite name="Enter Drug" duration-ms="14284" started-at="2015-07-01T15:34:27Z" finished-at="2015-07-01T15:34:42Z">
+  <suite name="Enter Drug" duration-ms="15286" started-at="2015-07-01T17:32:27Z" finished-at="2015-07-01T17:32:42Z">
     <groups>
     </groups>
-    <test name="Test enter drugs" duration-ms="14284" started-at="2015-07-01T15:34:27Z" finished-at="2015-07-01T15:34:42Z">
+    <test name="Test enter drugs" duration-ms="15286" started-at="2015-07-01T17:32:27Z" finished-at="2015-07-01T17:32:42Z">
       <class name="demo.f18.testsuite.F18EnterDrug">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18EnterDrug passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-07-01T11:34:27Z" finished-at="2015-07-01T11:34:27Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18EnterDrug passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="2" started-at="2015-07-01T13:32:27Z" finished-at="2015-07-01T13:32:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@75780a91]]>
+                <![CDATA[org.testng.TestRunner@6945bbb7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18EnterDrug passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5462" started-at="2015-07-01T11:34:27Z" finished-at="2015-07-01T11:34:33Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18EnterDrug passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5793" started-at="2015-07-01T13:32:27Z" finished-at="2015-07-01T13:32:32Z">
           <params>
             <param index="0">
               <value>
@@ -230,11 +230,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="enterDrugDetails()[pri:0, instance:[F18EnterDrug passed=0 failed=0 skipped=0]]" name="enterDrugDetails" duration-ms="8813" started-at="2015-07-01T11:34:33Z" finished-at="2015-07-01T11:34:42Z">
+        <test-method status="PASS" signature="enterDrugDetails()[pri:0, instance:[F18EnterDrug passed=0 failed=0 skipped=0]]" name="enterDrugDetails" duration-ms="9490" started-at="2015-07-01T13:32:32Z" finished-at="2015-07-01T13:32:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterDrugDetails -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18EnterDrug passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-01T11:34:42Z" finished-at="2015-07-01T11:34:42Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18EnterDrug passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-01T13:32:42Z" finished-at="2015-07-01T13:32:42Z">
           <params>
             <param index="0">
               <value>
@@ -248,23 +248,23 @@
       </class> <!-- demo.f18.testsuite.F18EnterDrug -->
     </test> <!-- Test enter drugs -->
   </suite> <!-- Enter Drug -->
-  <suite name="MaleDrugReactions" duration-ms="13933" started-at="2015-07-01T15:36:14Z" finished-at="2015-07-01T15:36:28Z">
+  <suite name="MaleDrugReactions" duration-ms="13257" started-at="2015-07-01T17:34:13Z" finished-at="2015-07-01T17:34:27Z">
     <groups>
     </groups>
-    <test name="Test delete drugs" duration-ms="13933" started-at="2015-07-01T15:36:14Z" finished-at="2015-07-01T15:36:28Z">
+    <test name="Test delete drugs" duration-ms="13257" started-at="2015-07-01T17:34:13Z" finished-at="2015-07-01T17:34:27Z">
       <class name="demo.f18.testsuite.F18GetDrugReactionsMale">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18GetDrugReactionsMale passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="2" started-at="2015-07-01T11:36:14Z" finished-at="2015-07-01T11:36:14Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18GetDrugReactionsMale passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="2" started-at="2015-07-01T13:34:13Z" finished-at="2015-07-01T13:34:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3ed96a9c]]>
+                <![CDATA[org.testng.TestRunner@6127215f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18GetDrugReactionsMale passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5623" started-at="2015-07-01T11:36:14Z" finished-at="2015-07-01T11:36:19Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18GetDrugReactionsMale passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5238" started-at="2015-07-01T13:34:13Z" finished-at="2015-07-01T13:34:19Z">
           <params>
             <param index="0">
               <value>
@@ -275,11 +275,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DrugReactionForMale()[pri:0, instance:[F18GetDrugReactionsMale passed=0 failed=0 skipped=0]]" name="DrugReactionForMale" duration-ms="8305" started-at="2015-07-01T11:36:19Z" finished-at="2015-07-01T11:36:28Z">
+        <test-method status="PASS" signature="DrugReactionForMale()[pri:0, instance:[F18GetDrugReactionsMale passed=0 failed=0 skipped=0]]" name="DrugReactionForMale" duration-ms="8009" started-at="2015-07-01T13:34:19Z" finished-at="2015-07-01T13:34:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DrugReactionForMale -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18GetDrugReactionsMale passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-01T11:36:28Z" finished-at="2015-07-01T11:36:28Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18GetDrugReactionsMale passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-07-01T13:34:27Z" finished-at="2015-07-01T13:34:27Z">
           <params>
             <param index="0">
               <value>
@@ -293,27 +293,27 @@
       </class> <!-- demo.f18.testsuite.F18GetDrugReactionsMale -->
     </test> <!-- Test delete drugs -->
   </suite> <!-- MaleDrugReactions -->
-  <suite name="F18 Demo Test Suit" duration-ms="0" started-at="2015-07-01T15:36:28Z" finished-at="2015-07-01T15:36:28Z">
+  <suite name="F18 Demo Test Suit" duration-ms="0" started-at="2015-07-01T17:34:27Z" finished-at="2015-07-01T17:34:27Z">
     <groups>
     </groups>
   </suite> <!-- F18 Demo Test Suit -->
-  <suite name="Drug Reactions" duration-ms="13024" started-at="2015-07-01T15:34:42Z" finished-at="2015-07-01T15:34:55Z">
+  <suite name="Drug Reactions" duration-ms="13257" started-at="2015-07-01T17:32:42Z" finished-at="2015-07-01T17:32:55Z">
     <groups>
     </groups>
-    <test name="Test Get All Drug Reactions" duration-ms="13024" started-at="2015-07-01T15:34:42Z" finished-at="2015-07-01T15:34:55Z">
+    <test name="Test Get All Drug Reactions" duration-ms="13257" started-at="2015-07-01T17:32:42Z" finished-at="2015-07-01T17:32:55Z">
       <class name="demo.f18.testsuite.F18GetDrugReactionsAll">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18GetDrugReactionsAll passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-07-01T11:34:42Z" finished-at="2015-07-01T11:34:42Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18GetDrugReactionsAll passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="2" started-at="2015-07-01T13:32:42Z" finished-at="2015-07-01T13:32:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1bfdf1d7]]>
+                <![CDATA[org.testng.TestRunner@500015cd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18GetDrugReactionsAll passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5172" started-at="2015-07-01T11:34:42Z" finished-at="2015-07-01T11:34:47Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18GetDrugReactionsAll passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5355" started-at="2015-07-01T13:32:42Z" finished-at="2015-07-01T13:32:47Z">
           <params>
             <param index="0">
               <value>
@@ -324,11 +324,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DrugReactionsAll()[pri:0, instance:[F18GetDrugReactionsAll passed=0 failed=0 skipped=0]]" name="DrugReactionsAll" duration-ms="7843" started-at="2015-07-01T11:34:47Z" finished-at="2015-07-01T11:34:55Z">
+        <test-method status="PASS" signature="DrugReactionsAll()[pri:0, instance:[F18GetDrugReactionsAll passed=0 failed=0 skipped=0]]" name="DrugReactionsAll" duration-ms="7895" started-at="2015-07-01T13:32:47Z" finished-at="2015-07-01T13:32:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DrugReactionsAll -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18GetDrugReactionsAll passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-07-01T11:34:55Z" finished-at="2015-07-01T11:34:55Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18GetDrugReactionsAll passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-01T13:32:55Z" finished-at="2015-07-01T13:32:55Z">
           <params>
             <param index="0">
               <value>
@@ -342,23 +342,23 @@
       </class> <!-- demo.f18.testsuite.F18GetDrugReactionsAll -->
     </test> <!-- Test Get All Drug Reactions -->
   </suite> <!-- Drug Reactions -->
-  <suite name="Footer Links" duration-ms="12755" started-at="2015-07-01T15:35:48Z" finished-at="2015-07-01T15:36:01Z">
+  <suite name="Footer Links" duration-ms="12706" started-at="2015-07-01T17:33:48Z" finished-at="2015-07-01T17:34:00Z">
     <groups>
     </groups>
-    <test name="Test delete drugs" duration-ms="12755" started-at="2015-07-01T15:35:48Z" finished-at="2015-07-01T15:36:01Z">
+    <test name="Test delete drugs" duration-ms="12706" started-at="2015-07-01T17:33:48Z" finished-at="2015-07-01T17:34:00Z">
       <class name="demo.f18.testsuite.F18DeleteDrugs">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18DeleteDrugs passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2015-07-01T11:35:48Z" finished-at="2015-07-01T11:35:48Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:[F18DeleteDrugs passed=0 failed=0 skipped=0]]" name="fetchSuiteConfiguration" is-config="true" duration-ms="2" started-at="2015-07-01T13:33:48Z" finished-at="2015-07-01T13:33:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@43f916]]>
+                <![CDATA[org.testng.TestRunner@35976ec3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18DeleteDrugs passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5330" started-at="2015-07-01T11:35:48Z" finished-at="2015-07-01T11:35:53Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:[F18DeleteDrugs passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="5110" started-at="2015-07-01T13:33:48Z" finished-at="2015-07-01T13:33:53Z">
           <params>
             <param index="0">
               <value>
@@ -369,11 +369,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DeleteDrug()[pri:0, instance:[F18DeleteDrugs passed=0 failed=0 skipped=0]]" name="DeleteDrug" duration-ms="7419" started-at="2015-07-01T11:35:53Z" finished-at="2015-07-01T11:36:01Z">
+        <test-method status="PASS" signature="DeleteDrug()[pri:0, instance:[F18DeleteDrugs passed=0 failed=0 skipped=0]]" name="DeleteDrug" duration-ms="7591" started-at="2015-07-01T13:33:53Z" finished-at="2015-07-01T13:34:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteDrug -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18DeleteDrugs passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-01T11:36:01Z" finished-at="2015-07-01T11:36:01Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:[F18DeleteDrugs passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-01T13:34:00Z" finished-at="2015-07-01T13:34:00Z">
           <params>
             <param index="0">
               <value>

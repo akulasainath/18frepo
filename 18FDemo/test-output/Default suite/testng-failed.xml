@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="demo.f18.testsuite.F18GetDrugReactionsFemale">
+      <class name="demo.f18.testsuite.F18GetDrugReactionsCountryUS">
         <methods>
           <include name="fetchSuiteConfiguration"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="DrugReactionsForFemale"/>
+          <include name="DrugReactionsInUS"/>
         </methods>
-      </class> <!-- demo.f18.testsuite.F18GetDrugReactionsFemale -->
+      </class> <!-- demo.f18.testsuite.F18GetDrugReactionsCountryUS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

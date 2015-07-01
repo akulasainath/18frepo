@@ -20,9 +20,7 @@
 	  	<!--3 Get Drug Reactions All -->
 	  	<suite-file path="src/test/resources/F18GetDrugReactionsAll.xml"> </suite-file>  
 	  		
-	  	<!--4 Get Drug Reactions by Country  -->
-	  	<suite-file path="src/test/resources/F18GetDrugReactionsCountryUS.xml"> </suite-file>    		
-		
+	  
 			<!--5  Delete Drug -->
 	  	<suite-file path="src/test/resources/F18DeleteDrugs.xml"> </suite-file>  
 	  

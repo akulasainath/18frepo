@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name='F18 Demo Test Suit' verbose="10"  >
+
+
+     
+	<suite-files>
+	<!-- <listener>
+	  	<listener class-name="org.uncommons.reporting.HTMLReporter"/>
+	  	<listener Class-name="demo.f18.testsuite"></listener>
+	</listener> -->
+	  	
+	
+	  	<!-- 1 Click on signin of landing page -->
+	  	<suite-file path="src/test/resources/F18LandingPageTest.xml"> </suite-file>
+	
+	  	<!--2 Enter Drug Name -->
+	  	<suite-file path="src/test/resources/F18EnterDrug.xml"> </suite-file>  	
+	  
+	  	<!--3 Get Drug Reactions All -->
+	  	<suite-file path="src/test/resources/F18GetDrugReactionsAll.xml"> </suite-file>  
+	  		
+	  	<!--4 Get Drug Reactions by Country  -->
+	  	<suite-file path="src/test/resources/F18GetDrugReactionsCountryUS.xml"> </suite-file>    		
+		
+			<!--5  Delete Drug -->
+	  	<suite-file path="src/test/resources/F18DeleteDrugs.xml"> </suite-file>  
+	  
+	  	<!--6  Female Drug Reactions -->
+	  	<suite-file path="src/test/resources/F18GetDrugReactionsFemale.xml"> </suite-file>  
+	  	
+	  	<!--7 Male Drug Reactions -->
+	  	<suite-file path="src/test/resources/F18GetDrugReactionsMale.xml"> </suite-file>  
+	  
+	</suite-files>   
+	
+</suite>
