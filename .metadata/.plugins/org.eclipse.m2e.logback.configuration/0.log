@@ -1377,3 +1377,39 @@ org.eclipse.core.runtime.CoreException: Launch configuration LinkedInTest refere
 2015-07-01 12:40:03,458 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
 2015-07-01 12:40:11,260 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-07-01 12:40:11,260 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-07-01 12:42:29,458 [Worker-157] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-07-01 12:42:30,482 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:42:30,483 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-01 12:42:30,484 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:42:30,485 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-01 12:42:41,910 [Worker-160] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-07-01 12:42:43,006 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:42:43,006 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-01 12:42:43,007 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:42:43,007 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-01 12:42:46,907 [Worker-157] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-01 12:42:46,990 [Worker-157] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-07-01 12:42:47,813 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-07-01 12:42:47,814 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-07-01 12:42:47,814 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-07-01 12:42:47,815 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-07-01 12:42:48,000 [Worker-157] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-07-01 12:42:50,720 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:42:50,721 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-07-01 12:42:58,468 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:42:58,468 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-07-01 12:46:44,065 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:46:44,067 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-07-01 12:46:51,896 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:46:51,896 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-01 12:46:51,905 [Worker-163] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-01 12:46:51,980 [Worker-163] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ventera.openfda:18FPrototype:0.0.1-SNAPSHOT @ C:\development\workspace_03\18FDemo\pom.xml.
+2015-07-01 12:46:52,821 [Worker-163] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/main/java
+2015-07-01 12:46:52,821 [Worker-163] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/main/resources
+2015-07-01 12:46:52,822 [Worker-163] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18FDemo/src/test/java
+2015-07-01 12:46:52,822 [Worker-163] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18FDemo/src/test/resources
+2015-07-01 12:46:53,001 [Worker-163] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-07-01 12:46:55,275 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:46:55,277 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-07-01 12:47:02,969 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-01 12:47:02,970 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
