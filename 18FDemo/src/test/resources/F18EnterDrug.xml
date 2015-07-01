@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name='Footer Links' verbose='10'  parallel="tests" thread-count="1">
+<suite name='Enter Drug' verbose='10'  parallel="tests" thread-count="1">
  	   		
 	   	
 	  <test name="Test enter drugs" enabled="true">
@@ -12,4 +12,4 @@
 		</classes>
 	  </test>	
 	  
-  </suite
+  </suite>

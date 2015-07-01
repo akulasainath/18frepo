@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='Footer Links' verbose='10'  parallel="tests" thread-count="1">
+ 	   		
+	   	
+	  <test name="Test enter drugs" enabled="true">
+		<classes>
+			<class name="demo.f18.testsuite.F18EnterDrug">
+				<methods>
+					<include name="enterDrugDetails" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>	
+	  
+  </suite

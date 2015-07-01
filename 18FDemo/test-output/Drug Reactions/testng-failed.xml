@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [Drug Reactions]" parallel="tests">
+  <test name="Test Get All Drug Reactions(failed)" parallel="tests">
+    <classes>
+      <class name="demo.f18.testsuite.F18GetDrugReactionsAll">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="DrugReactionsAll"/>
+        </methods>
+      </class> <!-- demo.f18.testsuite.F18GetDrugReactionsAll -->
+    </classes>
+  </test> <!-- Test Get All Drug Reactions(failed) -->
+</suite> <!-- Failed suite [Drug Reactions] -->
