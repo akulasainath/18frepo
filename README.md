@@ -38,7 +38,7 @@ As a concerned patient, family member, or friend, I want access to information i
 
  
 
-Personas were identified to ensure that user stories developed for the prototype addressed specific user needs.  Detailed user stories and tasks were created in a[ ](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fakulasainath%2F18frepo%2Fissues%2F1&sa=D&sntz=1&usg=AFQjCNFKU26dwnxeU87MmmsXoXWH5G6spA)[Product Backlog](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fakulasainath%2F18frepo%2Fissues%2F1&sa=D&sntz=1&usg=AFQjCNFKU26dwnxeU87MmmsXoXWH5G6spA).  Each user story was prioritized to ensure that the most impactful items were completed first.
+Personas were identified to ensure that user stories developed for the prototype addressed specific user needs.  Detailed user stories and tasks were created in a[ ](https://github.com/akulasainath/18frepo/issues)[Product Backlog](https://github.com/akulasainath/18frepo/issues).  Each user story was prioritized to ensure that the most impactful items were completed first.
 
  
 
