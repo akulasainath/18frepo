@@ -126,13 +126,13 @@ For additional description of each tool, see the[ ](https://www.google.com/url?q
 Infrastructure as a Service:
 ============================
 
-This prototype is deployed as an Infrastructure as a Service using AWS.  The following AWS technologies were used:
+This prototype is deployed using Amazon Web Services (AWS) Infrastructure as a Service for compute capacity in the cloud. The following are all AWS technologies that were used:
 
  
 
 ●     [ ](http://www.google.com/url?q=http%3A%2F%2Faws.amazon.com%2Fec2%2F&sa=D&sntz=1&usg=AFQjCNGdVfqGba8hJnfnihNs2-MtB2HynA)[AWS EC2 Server](http://www.google.com/url?q=http%3A%2F%2Faws.amazon.com%2Fec2%2F&sa=D&sntz=1&usg=AFQjCNGdVfqGba8hJnfnihNs2-MtB2HynA) Instances running[ ](http://www.google.com/url?q=http%3A%2F%2Fwww.ubuntu.com%2Fserver&sa=D&sntz=1&usg=AFQjCNH_gAG3c5ND0EF3m09_PD42-IzNmw)[Ubuntu](http://www.google.com/url?q=http%3A%2F%2Fwww.ubuntu.com%2Fserver&sa=D&sntz=1&usg=AFQjCNH_gAG3c5ND0EF3m09_PD42-IzNmw)
 
-●     [ ](http://www.google.com/url?q=http%3A%2F%2Faws.amazon.com%2Felasticloadbalancing%2F&sa=D&sntz=1&usg=AFQjCNENWPF_qj6ACSzqNMzAltm_1M2cgg)[AWS EC2 Elastic Load Balancers](http://www.google.com/url?q=http%3A%2F%2Faws.amazon.com%2Felasticloadbalancing%2F&sa=D&sntz=1&usg=AFQjCNENWPF_qj6ACSzqNMzAltm_1M2cgg) and Auto Scaling Groups
+●     [ ](http://www.google.com/url?q=http%3A%2F%2Faws.amazon.com%2Felasticloadbalancing%2F&sa=D&sntz=1&usg=AFQjCNENWPF_qj6ACSzqNMzAltm_1M2cgg)[AWS EC2 Elastic Load Balancers](http://www.google.com/url?q=http%3A%2F%2Faws.amazon.com%2Felasticloadbalancing%2F&sa=D&sntz=1&usg=AFQjCNENWPF_qj6ACSzqNMzAltm_1M2cgg) and [] (http://aws.amazon.com/autoscaling/) [Auto Scaling Groups](http://aws.amazon.com/autoscaling/)
 
 ●     [ ](http://www.google.com/url?q=http%3A%2F%2Faws.amazon.com%2Fcloudwatch%2F&sa=D&sntz=1&usg=AFQjCNEzxHOwyQLOs4SyLrAhvdY2C57i6g)[Amazon CloudWatch Monitoring](http://www.google.com/url?q=http%3A%2F%2Faws.amazon.com%2Fcloudwatch%2F&sa=D&sntz=1&usg=AFQjCNEzxHOwyQLOs4SyLrAhvdY2C57i6g)
 
