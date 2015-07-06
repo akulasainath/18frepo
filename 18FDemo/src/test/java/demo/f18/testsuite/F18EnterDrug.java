@@ -12,7 +12,7 @@ public class F18EnterDrug extends TestConfig {
 		F18HomePage enterdrugdetails = new F18HomePage(driver);		
 
 		enterdrugdetails.verifyLandingPage();
-		enterdrugdetails.enterSearchDrugFromExcelFile(System.getProperty("user.dir")+"\\src\\main\\resources\\testData\\DrugDetails.xls");
+		enterdrugdetails.enterSearchDrugFromExcelFile(System.getProperty("user.dir")+"//src//main//resources//testData//DrugDetails.xls");
 		enterdrugdetails.closeBroswer();
 	}
 	

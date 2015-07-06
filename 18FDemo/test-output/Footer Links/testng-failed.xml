@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [Footer Links]" parallel="tests">
+  <test name="Test delete drugs(failed)" parallel="tests">
+    <classes>
+      <class name="demo.f18.testsuite.F18DeleteDrugs">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="tearDown"/>
+          <include name="DeleteDrug"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- demo.f18.testsuite.F18DeleteDrugs -->
+    </classes>
+  </test> <!-- Test delete drugs(failed) -->
+</suite> <!-- Failed suite [Footer Links] -->

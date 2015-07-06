@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name='F18 Demo Test Suit' verbose="10"  >
+
+
+     
+	<suite-files>
+	  	
+	
+	  	<!-- Click on signin of landing page -->
+	  	<suite-file path="src/test/resources/F18LandingPageTest.xml"> </suite-file>
+	
+	  	<!-- Click on signin of landing page -->
+	  	<suite-file path="src/test/resources/F18EnterDrug.xml"> </suite-file>  	
+	  
+	  	<!-- Click on signin of landing page -->
+	  	<suite-file path="src/test/resources/F18GetDrugReactionsAll.xml"> </suite-file>  
+	  		
+	  	<!-- Click on signin of landing page -->
+	  	<suite-file path="src/test/resources/F18GetDrugReactionsAll.xml"> </suite-file>    		
+		
+	  
+	</suite-files>   
+	
+</suite>

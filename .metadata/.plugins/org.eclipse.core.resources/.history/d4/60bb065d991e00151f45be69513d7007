@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name='F18 Demo Test Suit' verbose="10"  >
+
+
+     
+	<suite-files>
+	  	
+	
+	  	
+	  	<!-- Enter Drug information -->
+	  	<suite-file path="src/test/resources/F18EnterDrug.xml"> </suite-file>
+		
+	  
+	</suite-files>   
+	
+</suite>

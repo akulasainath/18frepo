@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='Direct to signin page' verbose='10'  parallel="tests" thread-count="1">
+ 	   
+ 	   <listener>
+	  	<listener class-name="org.uncommons.reporting.HTMLReporter"/>
+	  	<listener Class-name="demo.f18.testsuite.F18LandingPage"></listener>
+	</listener>
+ 	   		
+	   	
+	  <test name="Test F18 landing page" enabled="true">
+		<classes>
+			<class name="demo.f18.testsuite.F18LandingPageTest">
+				<methods>
+					<include name="testLandingPage" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>	
+	  </suite>

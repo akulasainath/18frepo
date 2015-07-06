@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='Drug Reactions' verbose='10'  parallel="tests" thread-count="1">
+ 	   		
+	   	
+	  <test name="Test Get All Drug Reactions" enabled="true">
+		<classes>
+			<class name="demo.f18.testsuite.F18GetDrugReactionsAll">
+				<methods>
+					<include name="DrugReactionsAll" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>	
+	  
+  </suite>

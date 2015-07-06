@@ -137,7 +137,17 @@ public class TestConfig extends TestListenerAdapter implements ITestListener{
 			capability.setBrowserName("safari");
 			//capability.setCapability(SafariDriver.CLEAN_SESSION_CAPABILITY, profile);
 			this.driver = new SafariDriver(capability);
-		} else if (targetBrowser.contains("ghost")) { // Gosht driver browser settins					
+		} else if (targetBrowser.contains("ghost")) { // Gosht driver browser setting for Windows					
+			capability = DesiredCapabilities.phantomjs();
+	        // This line is for Windows.  	
+			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir")+"\\src\\main\\resources\\ghostDriver\\phantomjs.exe");
+			//This line is for Unix 1
+			capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "/home/rharvey/phantomjs-ubuntu");
+			
+			this.driver = new PhantomJSDriver(capability);
+		}
+		
+		/*else if (targetBrowser.contains("ghostU")) { // Gosht driver browser setting for UNIX 					
 			capability = DesiredCapabilities.phantomjs();
 	        // This line is for Windows.  	
 			//capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir")+"\\src\\main\\resources\\ghostDriver\\phantomjs.exe");
@@ -145,7 +155,9 @@ public class TestConfig extends TestListenerAdapter implements ITestListener{
 			capability.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "//usr//bin//phantomjs");
 			
 			this.driver = new PhantomJSDriver(capability);
-		}
+		}*/
+		
+		
 		/*System.out.println("Remote Grid : " + remote_grid );
 			// Instantiate RemoteWebDriver
 

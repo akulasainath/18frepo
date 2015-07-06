@@ -73,7 +73,8 @@ public class EndtoEnd extends TestConfig{
 			drugreactionsinUS.getDrugReactions();
 			} catch (Exception e) {
 				log("Reactions data is not displayed", FrameworkConstants.METHOD);	
-				  throw new RuntimeException(e);	
+
+				throw new RuntimeException(e);	
 			}
 		//drugreactionsinUS.closeBroswer();
 	}
