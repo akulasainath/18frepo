@@ -114,7 +114,7 @@ This prototype is deployed using Amazon Web Services (AWS) Infrastructure as a S
 
    * npm install http-server -g
 
-2. Clone the repository at[ ](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fakulasainath%2F18frepo.git&sa=D&sntz=1&usg=AFQjCNFTLEnd3RSyfHrGMZGptOqKuWbeCw)[https://github.com/akulasainath/18frepo.git](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fakulasainath%2F18frepo.git&sa=D&sntz=1&usg=AFQjCNFTLEnd3RSyfHrGMZGptOqKuWbeCw), using the desired branch.
+2. Clone the repository at[ ](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fakulasainath%2F18frepo.git&sa=D&sntz=1&usg=AFQjCNFTLEnd3RSyfHrGMZGptOqKuWbeCw)[https://github.com/akulasainath/18frepo.git](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fakulasainath%2F18frepo.git&sa=D&sntz=1&usg=AFQjCNFTLEnd3RSyfHrGMZGptOqKuWbeCw), using the desired branch (Release branch).
 
    * git clone[ ](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fakulasainath%2F18frepo.git&sa=D&sntz=1&usg=AFQjCNFTLEnd3RSyfHrGMZGptOqKuWbeCw)[https://github.com/akulasainath/18frepo.git](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fakulasainath%2F18frepo.git&sa=D&sntz=1&usg=AFQjCNFTLEnd3RSyfHrGMZGptOqKuWbeCw)
 
